@@ -1,0 +1,2233 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Wholesale Prices\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce-"
+"wholesale-prices\n"
+"POT-Creation-Date: 2022-02-01 13:22+0800\n"
+"PO-Revision-Date: 2022-02-01 13:23+0800\n"
+"Last-Translator: \n"
+"Language-Team: Français\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Loco-Version: 2.5.5; wp-5.8.1\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: js/lib\n"
+"X-Poedit-SearchPathExcluded-1: js/app\n"
+
+#: includes/admin-custom-fields/products/class-wwp-admin-custom-fields-simple-product.php:103
+#: includes/class-wwp-products-cpt.php:106
+msgid "Wholesale Price"
+msgstr "Prix de gros"
+
+#: includes/admin-custom-fields/products/class-wwp-admin-custom-fields-simple-product.php:147
+#, php-format
+msgid "%1$s Price (%2$s)"
+msgstr "%1$s Prix (%2$s)"
+
+#: includes/admin-custom-fields/products/class-wwp-admin-custom-fields-simple-product.php:399
+#: includes/admin-custom-fields/products/class-wwp-admin-custom-fields-simple-product.php:475
+#: includes/admin-custom-fields/products/class-wwp-admin-custom-fields-variable-product.php:186
+#: includes/admin-custom-fields/products/class-wwp-admin-custom-fields-variable-product.php:274
+#: includes/class-wwp-script-loader.php:664 includes/class-wwp-settings.php:38
+msgid "Wholesale Prices"
+msgstr "Wholesale Prices"
+
+#: includes/admin-custom-fields/products/class-wwp-admin-custom-fields-simple-product.php:400
+#: includes/admin-custom-fields/products/class-wwp-admin-custom-fields-variable-product.php:187
+msgid ""
+"Wholesale prices are set per role and currency.<br/><br/><b>Note:</b> "
+"Wholesale price must be set for the base currency to enable wholesale "
+"pricing for that role. The base currency will be used for conversion to "
+"other currencies that have no wholesale price explicitly set (Auto)."
+msgstr ""
+"Les prix de gros sont définis par rôle et par devis.<br/><br/><b>Note:</b> "
+"Leprix de gros doit être défini pour la devis de base afin de permettre un "
+"prix de gros pour ce rôle. La devise de base sera utilisée pour convertir "
+"les autres devises qui n'ont pas de prix de gros explicitement défini (Auto)."
+
+#: includes/admin-custom-fields/products/class-wwp-admin-custom-fields-simple-product.php:416
+#: includes/admin-custom-fields/products/class-wwp-admin-custom-fields-simple-product.php:446
+#: includes/admin-custom-fields/products/class-wwp-admin-custom-fields-variable-product.php:215
+#: includes/admin-custom-fields/products/class-wwp-admin-custom-fields-variable-product.php:242
+#, php-format
+msgid "Only applies to users with the role of %1$s for %2$s currency"
+msgstr ""
+"S'applique seulement aux utilisateurs avec le rôle %1$s pour la devise %2$s"
+
+#: includes/admin-custom-fields/products/class-wwp-admin-custom-fields-simple-product.php:452
+msgid "Auto"
+msgstr "Auto"
+
+#: includes/admin-custom-fields/products/class-wwp-admin-custom-fields-simple-product.php:477
+#: includes/admin-custom-fields/products/class-wwp-admin-custom-fields-variable-product.php:276
+msgid "Set a wholesale price for this product."
+msgstr "Définir un prix de gros pour ce produit."
+
+#: includes/admin-custom-fields/products/class-wwp-admin-custom-fields-simple-product.php:478
+msgid "Add additional wholesale price levels."
+msgstr "Ajouter des rôles grossistes supplémentaires."
+
+#: includes/admin-custom-fields/products/class-wwp-admin-custom-fields-simple-product.php:492
+#: includes/admin-custom-fields/products/class-wwp-admin-custom-fields-variable-product.php:291
+#, php-format
+msgid "Only applies to users with the role of %1$s"
+msgstr "S'applique uniquement aux utilisateurs ayant le rôle %1$s"
+
+#: includes/admin-custom-fields/products/class-wwp-admin-custom-fields-variable-product.php:97
+#: includes/class-wwp-admin-menu.php:87
+msgid "Wholesale"
+msgstr "Vente en gros"
+
+#: includes/admin-custom-fields/products/class-wwp-admin-custom-fields-variable-product.php:100
+#, php-format
+msgid "Set wholesale prices (%1$s)"
+msgstr "Définir les prix de gros (%1$s)"
+
+#: includes/api/v1/class-wwp-rest-api-keys-v1-controller.php:118
+#: includes/class-wwp-dashboard.php:214
+msgid "Invalid Request."
+msgstr ""
+
+#: includes/api/v1/class-wwp-rest-api-keys-v1-controller.php:140
+msgid "Invalid API keys."
+msgstr ""
+
+#: includes/api/v1/class-wwp-rest-api-keys-v1-controller.php:169
+msgid "API keys updated."
+msgstr ""
+
+#: includes/api/v1/class-wwp-rest-api-keys-v1-controller.php:176
+#, fuzzy
+#| msgid "Generate API Keys"
+msgid "Unable to update API Keys."
+msgstr "Générer des clés API"
+
+#: includes/api/v1/class-wwp-rest-api-keys-v1-controller.php:211
+#, fuzzy
+#| msgid "Successfully Edited Role"
+msgid "Successfully revoked API Key."
+msgstr "Rôle modifié avec succès"
+
+#: includes/api/v1/class-wwp-rest-api-keys-v1-controller.php:222
+#, fuzzy
+#| msgid "You don't have permission."
+msgid "You do not have permission to revoke this API Key"
+msgstr "Vous n’avez pas d’autorisation."
+
+#: includes/api/v1/class-wwp-rest-api-wholesale-products-v1-controller.php:476
+#: includes/api/v1/class-wwp-rest-api-wholesale-products-v1-controller.php:483
+#, php-format
+msgid "Unable to %s. Invalid wholesale price."
+msgstr "Impossible de %s. Prix de gros invalide."
+
+#: includes/api/v1/class-wwp-rest-api-wholesale-products-v1-controller.php:505
+#: includes/api/v1/class-wwp-rest-api-wholesale-products-v1-controller.php:540
+#: includes/api/v1/class-wwp-rest-api-wholesale-products-variations-v1-controller.php:249
+#: includes/api/v1/class-wwp-rest-api-wholesale-products-variations-v1-controller.php:285
+msgid "Invalid wholesale role."
+msgstr "Rôle de vente en gros invalide."
+
+#: includes/api/v1/class-wwp-rest-api-wholesale-products-v1-controller.php:550
+#: includes/api/v1/class-wwp-rest-api-wholesale-products-variations-v1-controller.php:295
+msgid "Cannot view, please provide wholesale_role parameter."
+msgstr ""
+"Visualisation impossible. Veuillez fournir le paramètre \"wholesale_role\"."
+
+#: includes/api/v1/class-wwp-rest-api-wholesale-products-v1-controller.php:564
+#: includes/api/v1/class-wwp-rest-api-wholesale-products-variations-v1-controller.php:301
+msgid "Not a wholesale product."
+msgstr "Pas un produit de gros."
+
+#: includes/api/v1/class-wwp-rest-api-wholesale-products-v1-controller.php:842
+#, php-format
+msgid "Wholesale price for %s"
+msgstr "Wholesale Prices pour %s"
+
+#: includes/api/v1/class-wwp-rest-api-wholesale-products-v1-controller.php:850
+msgid "The product wholesale price."
+msgstr "Le prix de gros du produit."
+
+#: includes/api/v1/class-wwp-rest-api-wholesale-roles-v1-controller.php:140
+msgid "You don't have permission."
+msgstr "Vous n’avez pas d’autorisation."
+
+#: includes/api/v1/class-wwp-rest-api-wholesale-roles-v1-controller.php:187
+#: includes/api/v1/class-wwp-rest-api-wholesale-roles-v1-controller.php:234
+#: includes/api/v1/class-wwp-rest-api-wholesale-roles-v1-controller.php:250
+msgid "Item not found."
+msgstr "Elément non trouvé."
+
+#: includes/api/v1/class-wwp-rest-api-wholesale-roles-v1-controller.php:226
+#, php-format
+msgid "Wholesale Role %s has been updated."
+msgstr "Rôle grossiste %s mis à jour."
+
+#: includes/class-wwp-admin-menu.php:91
+msgid "Reports"
+msgstr ""
+
+#: includes/class-wwp-admin-menu.php:95
+#, fuzzy
+#| msgid "Order Form"
+msgid "Orders"
+msgstr "Formulaire de commande"
+
+#: includes/class-wwp-admin-menu.php:98 includes/class-wwp-admin-menu.php:155
+#: includes/class-wwp-admin-menu.php:186 includes/class-wwp-bootstrap.php:387
+#: includes/class-wwp-dashboard.php:611
+msgid "Settings"
+msgstr "Paramètres"
+
+#: includes/class-wwp-admin-menu.php:100 includes/class-wwp-dashboard.php:167
+#: includes/class-wwp-dashboard.php:599
+msgid "Dashboard"
+msgstr ""
+
+#: includes/class-wwp-admin-menu.php:157
+#, fuzzy
+#| msgid "Wholesale Prices Settings"
+msgid "Wholesale Prices Settings Page"
+msgstr "Paramètre des prix de gros"
+
+#: includes/class-wwp-admin-menu.php:160
+#, fuzzy
+#| msgid "Wholesale Order Form"
+msgid "Wholesale Order Form Settings Page"
+msgstr "Formulaire de commande en gros"
+
+#: includes/class-wwp-admin-menu.php:164
+#, fuzzy
+#| msgid "Wholesale Lead Capture"
+msgid "Wholesale Lead Capture Settings Page"
+msgstr "Wholesale Lead Capture"
+
+#: includes/class-wwp-bootstrap.php:187
+msgid "Wholesale Customer"
+msgstr "Client grossiste"
+
+#: includes/class-wwp-bootstrap.php:201
+msgid "This is the main wholesale user role."
+msgstr "Ceci est le rôle principal de vente en gros."
+
+#: includes/class-wwp-bootstrap.php:392
+msgid "Upgrade To Premium"
+msgstr "Mettre à jour vers Premium"
+
+#: includes/class-wwp-bootstrap.php:397
+msgid "Getting Started"
+msgstr "Bien démarrer"
+
+#: includes/class-wwp-bootstrap.php:438
+msgid ""
+"Thank you for choosing Wholesale Suite &#8211; the most complete wholesale "
+"solution for building wholesale sales into your existing WooCommerce driven "
+"store."
+msgstr ""
+"Nous vous remercions d'avoir choisi Wholesale Suite – la solution la plus "
+"complète de vente en gros pour bâtir vos ventes en gros dans votre boutique "
+"existante sous WooCommerce."
+
+#: includes/class-wwp-bootstrap.php:439
+msgid ""
+"The free WooCommerce Wholesale Prices plugin lets you set wholesale pricing "
+"for wholesale level customers. Would you like to find out how to drive it?"
+msgstr ""
+"La version gratuite de l'extension WooCommerce Wholesale Prices vous permet "
+"de définir un prix pour les clients d'un niveau de clients en gros. "
+"Souhaitez-vous savoir comment réaliser cela?"
+
+#: includes/class-wwp-bootstrap.php:442
+msgid "Read the Getting Started guide"
+msgstr "Lire le guide de démarrage"
+
+#: includes/class-wwp-bootstrap.php:446
+msgid "Dismiss this notice."
+msgstr "Rejeter cette notification."
+
+#: includes/class-wwp-dashboard.php:243
+#, fuzzy
+#| msgid "WooCommerce Wholesale Order Form"
+msgid "WooCommerce Wholesale Order Form plugin."
+msgstr "WooCommerce Wholesale Order Form"
+
+#: includes/class-wwp-dashboard.php:246
+#, fuzzy
+#| msgid "WooCommerce Wholesale Lead Capture"
+msgid "WooCommerce Wholesale Lead Capture plugin."
+msgstr "WooCommerce Wholesale Lead Capture"
+
+#: includes/class-wwp-dashboard.php:249
+#, fuzzy
+#| msgid "WooCommerce Wholesale Prices Premium"
+msgid "WooCommerce Wholesale Prices Premium plugin."
+msgstr "WooCommerce Wholesale Prices Premium"
+
+#: includes/class-wwp-dashboard.php:255
+#, fuzzy
+#| msgid "Successfully Edited Role"
+msgid "Successfully activated"
+msgstr "Rôle modifié avec succès"
+
+#: includes/class-wwp-dashboard.php:260
+msgid "Unable to activate"
+msgstr ""
+
+#: includes/class-wwp-dashboard.php:285
+msgid "The license status is now up to date."
+msgstr ""
+
+#: includes/class-wwp-dashboard.php:302
+msgid "Last 30 days"
+msgstr ""
+
+#: includes/class-wwp-dashboard.php:303
+msgid "Last 14 days"
+msgstr ""
+
+#: includes/class-wwp-dashboard.php:304
+msgid "Last 7 days"
+msgstr ""
+
+#: includes/class-wwp-dashboard.php:305
+msgid "Last 1 year"
+msgstr ""
+
+#: includes/class-wwp-dashboard.php:323 includes/class-wwp-dashboard.php:614
+#: includes/class-wwp-dashboard.php:733
+#, fuzzy
+#| msgid "WooCommerce Wholesale Prices Premium"
+msgid "Wholesale Prices Premium"
+msgstr "WooCommerce Wholesale Prices Premium"
+
+#: includes/class-wwp-dashboard.php:330 includes/class-wwp-dashboard.php:615
+#: includes/class-wwp-dashboard.php:827 includes/class-wwp-order-form.php:112
+#: includes/class-wwp-script-loader.php:477
+msgid "Wholesale Order Form"
+msgstr "Formulaire de commande en gros"
+
+#: includes/class-wwp-dashboard.php:337 includes/class-wwp-dashboard.php:616
+#: includes/class-wwp-dashboard.php:921 includes/class-wwp-lead-capture.php:112
+msgid "Wholesale Lead Capture"
+msgstr "Wholesale Lead Capture"
+
+#: includes/class-wwp-dashboard.php:600
+msgid "Quick Stats:"
+msgstr ""
+
+#: includes/class-wwp-dashboard.php:601
+msgid ""
+"The stats will only count orders that are in processing or completed status."
+msgstr ""
+
+#: includes/class-wwp-dashboard.php:602
+#, fuzzy
+#| msgid "All Wholesale Orders"
+msgid "Wholesale Orders"
+msgstr "Toutes les commandes en gros"
+
+#: includes/class-wwp-dashboard.php:603
+#, fuzzy
+#| msgid "Wholesale Roles"
+msgid "Wholesale Revenue"
+msgstr "Rôles grossistes"
+
+#: includes/class-wwp-dashboard.php:604
+#, fuzzy
+#| msgid "Wholesale Customer"
+msgid "Top Wholesale Customers:"
+msgstr "Client grossiste"
+
+#: includes/class-wwp-dashboard.php:605
+#, fuzzy
+#| msgid "All Wholesale Orders"
+msgid "Recent Wholesale Orders:"
+msgstr "Toutes les commandes en gros"
+
+#: includes/class-wwp-dashboard.php:606
+msgid "View Order"
+msgstr ""
+
+#: includes/class-wwp-dashboard.php:607
+#, fuzzy
+#| msgid "All Wholesale Orders"
+msgid "View All Wholesale Orders &rarr;"
+msgstr "Toutes les commandes en gros"
+
+#: includes/class-wwp-dashboard.php:608
+msgid "Helpful Resources:"
+msgstr ""
+
+#: includes/class-wwp-dashboard.php:609
+#, fuzzy
+#| msgid "Getting Started"
+msgid "Getting Started Guides"
+msgstr "Bien démarrer"
+
+#: includes/class-wwp-dashboard.php:610
+msgid "Read Documentation"
+msgstr ""
+
+#: includes/class-wwp-dashboard.php:612
+msgid "Contact Support"
+msgstr ""
+
+#: includes/class-wwp-dashboard.php:613
+msgid "License Activation Status:"
+msgstr ""
+
+#: includes/class-wwp-dashboard.php:617
+msgid "View Licenses &rarr;"
+msgstr ""
+
+#: includes/class-wwp-dashboard.php:618
+#, fuzzy
+#| msgid "Wholesale Suite Bundle"
+msgid "Wholesale Suite Plugins:"
+msgstr "Offre groupée Wholesale Suite"
+
+#: includes/class-wwp-dashboard.php:619
+#, fuzzy
+#| msgid "Activate this plugin"
+msgid "Deactivated Plugins:"
+msgstr "Activer cette extension"
+
+#: includes/class-wwp-dashboard.php:620
+msgid "Activate"
+msgstr ""
+
+#: includes/class-wwp-dashboard.php:621
+#, fuzzy
+#| msgid "Activate this plugin"
+msgid "Click to activate the plugin."
+msgstr "Activer cette extension"
+
+#: includes/class-wwp-dashboard.php:622
+msgid "Re-check Plugin Status"
+msgstr ""
+
+#: includes/class-wwp-dashboard.php:623
+msgid "Click to fetch the latest plugin license status."
+msgstr ""
+
+#: includes/class-wwp-dashboard.php:742 includes/class-wwp-dashboard.php:836
+#: includes/class-wwp-dashboard.php:930
+msgid "Active"
+msgstr ""
+
+#: includes/class-wwp-dashboard.php:749 includes/class-wwp-dashboard.php:843
+#: includes/class-wwp-dashboard.php:937
+msgid "Inactive"
+msgstr ""
+
+#: includes/class-wwp-dashboard.php:756 includes/class-wwp-dashboard.php:850
+#: includes/class-wwp-dashboard.php:944
+msgid "Expired"
+msgstr ""
+
+#: includes/class-wwp-dashboard.php:763 includes/class-wwp-dashboard.php:857
+#: includes/class-wwp-dashboard.php:951
+msgid "Invalid"
+msgstr ""
+
+#: includes/class-wwp-dashboard.php:773 includes/class-wwp-dashboard.php:867
+#: includes/class-wwp-dashboard.php:961
+msgid "No license email and key."
+msgstr ""
+
+#: includes/class-wwp-dashboard.php:778 includes/class-wwp-dashboard.php:872
+#: includes/class-wwp-dashboard.php:966
+msgid "License email is empty."
+msgstr ""
+
+#: includes/class-wwp-dashboard.php:783 includes/class-wwp-dashboard.php:877
+#: includes/class-wwp-dashboard.php:971
+msgid "License key is empty."
+msgstr ""
+
+#: includes/class-wwp-dashboard.php:788 includes/class-wwp-dashboard.php:882
+#: includes/class-wwp-dashboard.php:976
+msgid "The license email is invalid."
+msgstr ""
+
+#: includes/class-wwp-dashboard.php:793 includes/class-wwp-dashboard.php:887
+#: includes/class-wwp-dashboard.php:981
+msgid "The license key is invalid."
+msgstr ""
+
+#: includes/class-wwp-dashboard.php:803 includes/class-wwp-dashboard.php:897
+#: includes/class-wwp-dashboard.php:991 views/view-wwp-lead-capture.php:67
+#: views/view-wwp-order-form.php:64
+#, fuzzy
+#| msgid "Activate this plugin"
+msgid "Activate Plugin"
+msgstr "Activer cette extension"
+
+#: includes/class-wwp-lead-capture.php:89
+#: includes/class-wwp-lead-capture.php:90
+#, fuzzy
+#| msgid "Wholesale Lead Capture"
+msgid "Lead Capture"
+msgstr "Wholesale Lead Capture"
+
+#: includes/class-wwp-marketing.php:115
+#: includes/wc-admin-notes/class-wwp-wws-bundle.php:97
+msgid "Wholesale Suite for WooCommerce"
+msgstr "Wholesale Suite for WooCommerce"
+
+#: includes/class-wwp-marketing.php:116
+msgid "Get the #1 rated wholesale solution for WooCommerce."
+msgstr "Obtenez la solution n°1 de vente en gros pour WooCommerce."
+
+#: includes/class-wwp-marketing.php:136
+msgid "Advanced Coupons (Install Free Plugin)"
+msgstr "Advanced Coupons  (Installer l'extension gratuite)"
+
+#: includes/class-wwp-marketing.php:137
+msgid "Extends your coupon features so you can market your store better."
+msgstr ""
+"Augmentez les fonctionnalités de vos codes promo afin d'améliorer vos ventes."
+
+#: includes/class-wwp-marketing.php:185
+msgid "How To Grow A WooCommerce Store Using Coupon Deals"
+msgstr ""
+"Comment faire prospérer une boutique WooCommerce à l'aide de code promo"
+
+#: includes/class-wwp-marketing.php:204
+msgid "How To Setup Wholesale On Your WooCommerce Store"
+msgstr "Comment mettre en œuvre Wholesale dans votre boutique WooCommerce"
+
+#: includes/class-wwp-marketing.php:294
+msgid "FREE PLUGIN AVAILABLE"
+msgstr "EXTENSION GRATUITE DISPONIBLE"
+
+#: includes/class-wwp-marketing.php:298
+msgid ""
+"Hey store owner! Do you use coupons to promote your WooCommerce store? "
+"Wholesale Suite has a sister plugin called <b>Advanced Coupons</b> which "
+"extends the features of your WooCommerce coupons. Best of all, it's free! "
+"You can run BOGO deals, apply cart conditions (coupon rules), restrict "
+"coupons by role (including wholesale roles) and loads more!"
+msgstr ""
+"Hé e-commerçant! Utilisez-vous des codes promo pour promouvoir votre "
+"boutique WooCommerce? Wholesale Suite a une extension sœur appelée "
+"<b>Advanced Coupons</b> qui augmente les fonctionnalités de vos codes promo "
+"WooCommerce. Mieux encore, elle est gratuite! Vous pouvez utiliser des "
+"offres BOGO, définir des conditions de panier (règles de codes promo), "
+"restreindre des codes promos par rôle (rôles grossistes inclus) et tellement "
+"plus!"
+
+#: includes/class-wwp-marketing.php:299
+msgid "Click here to install Advanced Coupons for WooCommerce Free"
+msgstr "Cliquez ici pour installer Advanced Coupons for WooCommerce Free"
+
+#: includes/class-wwp-marketing.php:302
+msgid "Install Plugin"
+msgstr "Installer l'extension"
+
+#: includes/class-wwp-marketing.php:304
+msgid "Dismiss"
+msgstr "Rejeter"
+
+#: includes/class-wwp-marketing.php:323
+msgid "Invalid AJAX call"
+msgstr "Appel AJAX invalide"
+
+#: includes/class-wwp-marketing.php:325
+msgid "Required parameter not passed"
+msgstr "Paramètre requis non fourni"
+
+#: includes/class-wwp-marketing.php:337
+msgid "Review request response saved"
+msgstr "Réponse à la demande d'avis enregistrée"
+
+#: includes/class-wwp-order-form.php:89 includes/class-wwp-order-form.php:90
+msgid "Order Form"
+msgstr "Formulaire de commande"
+
+#: includes/class-wwp-order.php:203
+msgid "Order Type"
+msgstr "Type de commande"
+
+#: includes/class-wwp-order.php:230
+msgid "Retail"
+msgstr "Vendre au détail"
+
+#: includes/class-wwp-order.php:242
+#, php-format
+msgid "Wholesale ( %1$s )"
+msgstr "De gros (%1$s)"
+
+#: includes/class-wwp-order.php:245
+msgid ""
+"This wholesale role is exclusive only for Wholesale Prices Premium. Make "
+"sure the plugin is active."
+msgstr ""
+
+#: includes/class-wwp-order.php:326
+msgid "All Wholesale Orders"
+msgstr "Toutes les commandes en gros"
+
+#: includes/class-wwp-order.php:327
+msgid "All Retail Orders"
+msgstr "Toutes les commandes au détail"
+
+#: includes/class-wwp-order.php:328
+msgid "Show all order types"
+msgstr "Montrer tous les types de commande"
+
+#: includes/class-wwp-script-loader.php:135
+#, php-format
+msgid ""
+"<p>We see you have been using Wholesale Suite for a couple of weeks now – "
+"thank you once again for your purchase and we hope you are enjoying it so "
+"far!</p>\n"
+"                                         <p>We’d really appreciate it if you "
+"could take a few minutes to write a 5-star review of our Wholesale Prices "
+"plugin on WordPress.org!</p>\n"
+"                                         <p>Your comment will go a long way "
+"to helping us grow and giving new users the confidence to give us a try.</"
+"p>\n"
+"                                         <p>Thanks in advance, we are "
+"looking forward to reading it!</p>\n"
+"                                         <p>PS. If you ever need support, "
+"please just <a href=\"%1$s\" target=\"_blank\">get in touch here.</a></p>"
+msgstr ""
+"<p>Nous constatons que vous utilisez Wholesale Suite depuis une quinzaine de "
+"jours maintenant – merci encore de votre achat et nous espérons que vous en "
+"êtes satisfait jusqu'ici!</p>\n"
+"                                <p>Nous apprécierions vraiment si vous "
+"pouviez prendre quelques minutes pour écrire un avis 5 étoiles sur notre "
+"extension Wholesale Prices sur WordPress.org!</p>\n"
+"                                <p>Votre commentaire nous aidera à prospérer "
+"en apportant à de nouveaux utilisateurs la confiance de l'essayer.</p>\n"
+"                                <p>Merci d'avance, nous avons hâte de le "
+"lire!</p>\n"
+"                                         <p>PS. Si vous avez besoin "
+"d'assistance, SVP <a href=\"%1$s\" target=\"_blank\">contactez-nous ici.</"
+"a></p>"
+
+#: includes/class-wwp-script-loader.php:142
+msgid ""
+"<p>Thanks for using our free WooCommerce Wholesale Prices plugin – we hope "
+"you are enjoying it so far.</p>\n"
+"                                <p>We’d really appreciate it if you could "
+"take a few minutes to write a 5-star review of our Wholesale Prices plugin "
+"on WordPress.org!</p>\n"
+"                                <p>Your comment will go a long way to "
+"helping us grow and giving new users the confidence to give us a try.</p>\n"
+"                                <p>Thanks in advance, we are looking forward "
+"to reading it!</p>"
+msgstr ""
+"<p>Merci d'utiliser notre extension gratuite WooCommerce Wholesale Prices – "
+"nous espérons que vous en êtes satisfait jusqu'ici.</p>\n"
+"                                <p>Nous apprécierions vraiment si vous "
+"pouviez prendre quelques minutes pour écrire un avis 5 étoiles sur notre "
+"extension Wholesale Prices sur WordPress.org!</p>\n"
+"                                <p>Votre commentaire nous aidera à prospérer "
+"en apportant à de nouveaux utilisateurs la confiance de l'essayer.</p>\n"
+"                                <p>Merci d'avance, nous avons hâte de le "
+"lire!</p>"
+
+#: includes/class-wwp-script-loader.php:189
+msgid "Enter a value (leave blank to remove pricing)"
+msgstr "Entrez une valeur (laissez vide pour supprimer le prix)"
+
+#: includes/class-wwp-script-loader.php:200
+msgid "<h4>Upgrade For Additional Wholesale Price Levels</h4>"
+msgstr "<h4>Passez Premium pour des niveaux additionnels de prix de gros</h4>"
+
+#: includes/class-wwp-script-loader.php:201
+msgid ""
+"<p>WooCommerce Wholesale Prices Premium lets you add additional levels of "
+"pricing\n"
+"                        by adding more wholesale user roles. Click below for "
+"all the details.</p>"
+msgstr ""
+"<p>WooCommerce Wholesale Prices Premium vous permet d’ajouter des niveaux de "
+"prix supplémentaires\n"
+"                        en ajoutant d’autres rôles d’utilisateur de gros. "
+"Cliquez ci-dessous pour tous les détails.</p>"
+
+#: includes/class-wwp-script-loader.php:206
+msgid "<h4>Upgrade For Product Visibility Features</h4>"
+msgstr "<h4>Passez Premium pour des niveaux additionnels de prix de gros</h4>"
+
+#: includes/class-wwp-script-loader.php:207
+msgid ""
+"<p>WooCommerce Wholesale Prices Premium lets you change the visibility of\n"
+"                        your products by selecting which wholesale roles "
+"should be able to see it. Click below for all\n"
+"                        the details.</p>"
+msgstr ""
+"<p>WooCommerce Wholesale Prices Premium vous permet de modifier la "
+"visibilité de vos produits\n"
+"\t\t\t\t\t\ten choisissant quels rôles grossistes peuvent les voir ou pas. "
+"Cliquez ci-dessous pour tous les détails.\n"
+"                        de prix par l'ajout de rôles clients grossistes "
+"supplémentaires. Voir ci-dessous pour les détails des fonctions incluses.</p>"
+
+#: includes/class-wwp-script-loader.php:212
+#: includes/class-wwp-script-loader.php:339
+#: includes/class-wwp-script-loader.php:368
+#: includes/wc-admin-notes/class-wwp-wws-bundle.php:103
+msgid "See Features & Pricing"
+msgstr "Voir les fonctions et prix"
+
+#: includes/class-wwp-script-loader.php:213
+#: includes/class-wwp-script-loader.php:478
+#, php-format
+msgid ""
+"<p><span style='font-weight: bold;'>Bonus:</span> Wholesale Prices lite "
+"users get <span class='green-text'>50% off regular price</span> "
+"automatically applied at checkout.</p>"
+msgstr ""
+"<p><span style='font-weight: bold;'>Prime:</span> Prix de gros lite les "
+"utilisateurs obtiennent <span class='green-text'>50% off prix régulier</"
+"span>, automatiquement appliqué à la caisse.</p>"
+
+#: includes/class-wwp-script-loader.php:265
+msgid "Yes"
+msgstr "Oui"
+
+#: includes/class-wwp-script-loader.php:266
+msgid "No"
+msgstr "Non"
+
+#: includes/class-wwp-script-loader.php:271
+msgid "Please Enter Role Name"
+msgstr "Veuillez entrer le nom du rôle"
+
+#: includes/class-wwp-script-loader.php:272
+msgid "Error in Wholesale Form"
+msgstr "Erreur dans le formulaire Wholesale"
+
+#: includes/class-wwp-script-loader.php:273
+msgid "Please Enter Role Key"
+msgstr "Veuillez entrer la clé du rôle"
+
+#: includes/class-wwp-script-loader.php:274
+msgid "Wholesale Role Successfully Edited"
+msgstr "Modification du rôle réussie"
+
+#: includes/class-wwp-script-loader.php:275
+msgid "Successfully Edited Role"
+msgstr "Rôle modifié avec succès"
+
+#: includes/class-wwp-script-loader.php:276
+msgid "Failed to Edit Wholesale Role"
+msgstr "Echec de la modification du rôle"
+
+#: includes/class-wwp-script-loader.php:328
+msgid "<h4>Define Prices By Percentage Globally Or On Categories</h4>"
+msgstr ""
+"<h4>Définissez les prix par pourcentage globalement ou par catégorie</h4>"
+
+#: includes/class-wwp-script-loader.php:329
+msgid ""
+"<p>In WooCommerce Wholesale Prices Premium you can set your wholesale prices "
+"by a percentage on a category or site-wide general level.\n"
+"                                            This can save heaps of time "
+"instead of setting wholesale pricing on individual products. Read more about "
+"it below.</p>"
+msgstr ""
+"<p>Avec WooCommerce Wholesale Prices Premium vous pouvez définir vos prix de "
+"gros avec un pourcentage sur une catégorie ou à niveau global sur tout le "
+"site.\n"
+"                                        Cela peux économiser un temps "
+"précieux plutôt que d'avoir à définir un prix de gros pour chaque produit "
+"individuellement. Apprenez-en plus à ce propos ci-dessous.</p>"
+
+#: includes/class-wwp-script-loader.php:334
+msgid "<h4>Change How Variable Product Prices Are Displayed</h4>"
+msgstr "<h4>Modifiez la façon d'afficher les produits à variations</h4>"
+
+#: includes/class-wwp-script-loader.php:335
+msgid ""
+"<p>Changing how your variable product prices are displayed can reduce the "
+"amount of computational work WooCommerce does on load, making your site "
+"faster.\n"
+"                            Access this optimization option and more in the "
+"WooCommerce Wholesale Prices Premium plugin.</p>"
+msgstr ""
+"<p>Modifier la façon dont le prix de vos produits à variations est affiché "
+"peut réduire le travail de calcul au chargement par WooCommerce, rendant "
+"votre site plus rapide. Accédez à cette option d'optimisation et plus encore "
+"avec l'extension WooCommerce Wholesale Prices Premium.</p>"
+
+#: includes/class-wwp-script-loader.php:352
+msgid "<h4>Upgrade To Wholesale Suite For Tax Exemption</h4>"
+msgstr "<h4>Passez à Wholesale Suite pour l'exonération de taxe</h4>"
+
+#: includes/class-wwp-script-loader.php:353
+msgid ""
+"<p>Wholesale Suite is the #1 best rated wholesale solution for WooCommerce.</"
+"p>\n"
+"                                                    <p>Prices Premium (one "
+"of the three plugins) features in-depth tax exemption controls including "
+"being able to turn on/off tax exemption just for specific wholesale roles.</"
+"p>"
+msgstr ""
+"<p>Wholesale Suite est la suite n°1 de vente en gros la mieux évaluée pour "
+"WooCommerce.</p>\n"
+"                                                    <p>Prices Premium (l'une "
+"de ses trois extensions) permet le contrôle en profondeur de l'exonération "
+"de taxe avec jusqu'à la possibilité de définir ou non l'exonération de taxe "
+"juste pour des rôles grossistes précis.</p>"
+
+#: includes/class-wwp-script-loader.php:358
+msgid "<h4>Upgrade To Wholesale Suite For Advanced Tax Display</h4>"
+msgstr "<h4>Passez à Wholesale Suite pour l'affichage avancé de la taxe</h4>"
+
+#: includes/class-wwp-script-loader.php:359
+msgid ""
+"<p>Wholesale Suite is the #1 best rated wholesale solution for WooCommerce. "
+"Prices Premium (one of the three plugins) features in-depth tax display "
+"controls.</p>"
+msgstr ""
+"<p>Wholesale Suite est la suite n°1 de vente en gros la mieux évaluée pour "
+"WooCommerce. Prices Premium (l'une de ses trois extensions) permet le "
+"contrôle en profondeur de l'affichage de la taxe.</p>"
+
+#: includes/class-wwp-script-loader.php:363
+msgid "<h4>Upgrade To Wholesale Suite For Suffix Overrides</h4>"
+msgstr "<h4>Passez à Wholesale Suite pour la redéfinition des suffixes</h4>"
+
+#: includes/class-wwp-script-loader.php:364
+msgid ""
+"<p>Wholesale Suite is the #1 best rated wholesale solution for WooCommerce. "
+"Prices Premium (one of three plugins) features advanced price suffix "
+"controls.</p>\n"
+"                                                    <p>This can help in "
+"complex tax situations where prices suffixes should be different for "
+"wholesale customers.</p>"
+msgstr ""
+"<p>Wholesale Suite est la suite n°1 de vente en gros la mieux évaluée pour "
+"WooCommerce. Prices Premium (l'une de ses trois extensions) permet le "
+"contrôle avancé des suffixes de prix.</p><p>Bien utile dans les cas "
+"complexes de taxe où les suffixes de prix doivent être différents pour les "
+"clients grossistes.</p>"
+
+#: includes/class-wwp-script-loader.php:421
+msgid ""
+"Get WooCommerce Wholesale Lead Capture to unlock this powerful feature + more"
+msgstr ""
+"Obtenez WooCommerce Wholesale Lead Capture pour déverrouiller cette "
+"puissante fonctionnalité + suite"
+
+#: includes/class-wwp-script-loader.php:437
+msgid ""
+"This text is linked to the defined registration page in WooCommerce "
+"Wholesale Lead Capture Settings."
+msgstr ""
+"Ce texte est lié à la page d’enregistrement définie dans Les paramètres de "
+"capture de prospects WooCommerce Wholesale."
+
+#: includes/class-wwp-script-loader.php:439
+msgid "The 'Click to See Wholesale Prices' text seen in frontend."
+msgstr "Le texte 'Cliquez pour voir les prix de gros ' vu dans le frontend."
+
+#: includes/class-wwp-script-loader.php:440
+msgid ""
+"The selected wholesale roles and pricing that should show to non-wholesale "
+"customers on the front end."
+msgstr ""
+"Les rôles de gros sélectionnés et les prix qui doivent être montrés aux "
+"clients non grossistes sur le front-end."
+
+#: includes/class-wwp-script-loader.php:441
+msgid "Choose wholesale role..."
+msgstr "Sélectionnez le rôle grossiste…"
+
+#: includes/class-wwp-script-loader.php:457
+msgid "WooCommerce API"
+msgstr "WooCommerce API"
+
+#: includes/class-wwp-script-loader.php:458
+#, fuzzy
+#| msgid ""
+#| "The WooCommerce REST API works on a key system to control access. These "
+#| "keys are linked to WordPress users on your website."
+msgid ""
+"The WooCommerce REST API works on a key system to control access. These keys "
+"are linked to WordPress users on your website.<br><p>You will need this API "
+"Keys in order for Show Wholesale Prices to Non Wholesale Users option to be "
+"activated. </p>"
+msgstr ""
+"L'API REST WooCommerce fonctionne sur un système de clé pour contrôler "
+"l'accès. Ces clés sont liées aux utilisateurs de WordPress sur votre site "
+"Web."
+
+#: includes/class-wwp-script-loader.php:459
+msgid "Consumer Key"
+msgstr "La clé du consommateur"
+
+#: includes/class-wwp-script-loader.php:460
+msgid "Consumer Secret"
+msgstr "Secret du consommateur"
+
+#: includes/class-wwp-script-loader.php:461
+msgid "Generate API Keys"
+msgstr "Générer des clés API"
+
+#: includes/class-wwp-script-loader.php:462
+#, fuzzy
+#| msgid "General"
+msgid "Auto Generate"
+msgstr "Général"
+
+#: includes/class-wwp-script-loader.php:463
+msgid "API keys are valid."
+msgstr ""
+
+#: includes/class-wwp-script-loader.php:464
+#, fuzzy
+#| msgid "Please Enter Role Key"
+msgid "Please enter a valid API keys."
+msgstr "Veuillez entrer la clé du rôle"
+
+#: includes/class-wwp-script-loader.php:470
+msgid "Show Wholesale Prices Box For Non Wholesale Customers"
+msgstr "Afficher la boîte des prix de gros pour les clients non grossistes"
+
+#: includes/class-wwp-script-loader.php:471
+msgid "Locations"
+msgstr "Emplacements"
+
+#: includes/class-wwp-script-loader.php:472
+msgid "Click to See Wholesale Prices Text"
+msgstr "Cliquez pour voir le texte des prix de gros"
+
+#: includes/class-wwp-script-loader.php:473
+msgid "Wholesale Roles(s)"
+msgstr "Rôles en gros"
+
+#: includes/class-wwp-script-loader.php:474
+msgid "Register Text"
+msgstr "Texte d'inscription"
+
+#: includes/class-wwp-script-loader.php:475
+msgid "Shop Archives"
+msgstr "Archives de la boutique"
+
+#: includes/class-wwp-script-loader.php:476
+msgid "Single Product"
+msgstr "Produits uniques"
+
+#: includes/class-wwp-script-loader.php:479
+msgid ""
+"<div class='notice  wwp-wwlc-inactive'><p><i class='fa fa-star checked'></"
+"i><strong> Recommended Plugin: WooCommerce Wholesale Lead Capture</strong></"
+"p><p>Lead Capture adds an additional 'register text' link to the wholesale "
+"prices box on the front end to help you capture even more wholesale leads.</"
+"p><p>"
+msgstr ""
+"<div class='notice  wwp-wwlc-inactive'><p><i class='fa fa-star checked'></"
+"i><strong> Plugin recommandé: WooCommerce Wholesale Lead Capture</strong></"
+"p><p>Lead Capture ajoute un lien supplémentaire « enregistrer le texte » à "
+"la boîte des prix de gros sur le front-end pour vous aider à capturer encore "
+"plus de prospects de gros.</p><p>"
+
+#: includes/class-wwp-script-loader.php:480
+msgid ""
+"<small>To use this option, you must have <strong>WooCommerce Wholesale Order "
+"Form</strong> plugin installed and activated.</small>"
+msgstr ""
+"<small>Pour utiliser cette option, vous devez avoir installé et activé le "
+"plugin <strong>WooCommerce Wholesale Order Form.</strong> plugin installé et "
+"activé.</small>"
+
+#: includes/class-wwp-script-loader.php:490
+#, fuzzy
+#| msgid "Wholesale Prices"
+msgid "Wholesale Prices API Keys"
+msgstr "Wholesale Prices"
+
+#: includes/class-wwp-script-loader.php:491
+#, fuzzy
+#| msgid "Successfully Edited Role"
+msgid "Successfully created API key."
+msgstr "Rôle modifié avec succès"
+
+#: includes/class-wwp-script-loader.php:494
+msgid "Success!"
+msgstr ""
+
+#: includes/class-wwp-script-loader.php:495
+msgid "Fail!"
+msgstr ""
+
+#: includes/class-wwp-script-loader.php:615
+msgid "Additional Wholesale Roles (Premium)"
+msgstr "Rôles grossistes supplémentaires (Premium)"
+
+#: includes/class-wwp-script-loader.php:616
+#: views/wholesale-roles/view-wwp-wholesale-roles-admin-page.php:77
+msgid ""
+"You're currently using the free version of WooCommerce Wholesale Prices "
+"which lets you have one level of wholesale customers."
+msgstr ""
+"Vous utilisez actuellement la version gratuite de WooCommerce Wholesale "
+"Prices qui vous permet d'avoir un niveau de clients en gros."
+
+#: includes/class-wwp-script-loader.php:618
+#, php-format
+msgid ""
+"In the <a href=\"%1$s\" target=\"_blank\">Premium add-on</a> you can add "
+"multiple wholesale roles. This will let you create separate \"levels\" of "
+"wholesale customers,\n"
+"                                            each of which can have separate "
+"wholesale pricing, shipping and payment mapping, order minimums and more."
+msgstr ""
+"Avec le <a href=\"%1$s\" target=\"_blank\">module Premium</a> vous pouvez "
+"créer de multiples rôles grossistes. Ceci vous permettre de créer différents "
+"\"niveaux\" de clients grossistes, chacun pouvant avoir ses propres prix de "
+"gros, frais de port, mode de paiement minimum de commande et plus encore."
+
+#: includes/class-wwp-script-loader.php:625
+#: views/view-wwp-upgrade-upsell.php:61
+#: views/wholesale-roles/view-wwp-wholesale-roles-admin-page.php:84
+msgid "See the full feature list"
+msgstr "Voir la liste complète des fonctionnalités"
+
+#: includes/class-wwp-settings.php:77
+msgid "General"
+msgstr "Général"
+
+#: includes/class-wwp-settings.php:78
+msgid "Price"
+msgstr "Prix"
+
+#: includes/class-wwp-settings.php:79
+msgid "Tax"
+msgstr "Taxe"
+
+#: includes/class-wwp-settings.php:80
+msgid "Help"
+msgstr "Aide"
+
+#: includes/class-wwp-settings.php:81
+msgid "Upgrade"
+msgstr "Mettre à jour"
+
+#: includes/class-wwp-settings.php:252
+msgid "Wholesale Prices Settings"
+msgstr "Paramètre des prix de gros"
+
+#: includes/class-wwp-settings.php:259 includes/class-wwp-settings.php:665
+msgid "Allow Usage Tracking"
+msgstr "Autoriser le suivi d’utilisation"
+
+#: includes/class-wwp-settings.php:261 includes/class-wwp-settings.php:667
+msgid ""
+"By allowing us to track usage data we can better help you because we know "
+"with which WordPress configurations, themes and plugins we should test."
+msgstr ""
+"En nous permettant de collecter vos données d’utilisation nous pouvons vous "
+"aider car nous savons alors quelles configurations de WordPress, thèmes et "
+"extensions tester."
+
+#: includes/class-wwp-settings.php:262 includes/class-wwp-settings.php:668
+msgid ""
+"Complete documentation on usage tracking is available <a href=\"https://"
+"wholesalesuiteplugin.com/kb/usage-tracking/?"
+"utm_campaign=freeplugin&utm_medium=kb&utm_campaign=helppageusagetracking\" "
+"target=\"_blank\">here</a>."
+msgstr ""
+"La documention complète sur le suivi d’usage est disponible <a href="
+"\"https://wholesalesuiteplugin.com/kb/usage-tracking/?"
+"utm_campaign=freeplugin&utm_medium=kb&utm_campaign=helppageusagetracking\" "
+"target=\"_blank\">ici</a>."
+
+#: includes/class-wwp-settings.php:268
+msgid "Disable Coupons For Wholesale Users"
+msgstr "Désactiver les code promo pour les clients grossistes"
+
+#: includes/class-wwp-settings.php:270
+msgid ""
+"Globally turn off coupons functionality for customers with a wholesale user "
+"role."
+msgstr ""
+"Désactive globalement les fonctionnalités de codes promo pour les clients "
+"ayant un rôle grossiste."
+
+#: includes/class-wwp-settings.php:271
+msgid "This applies to all customers with a wholesale role."
+msgstr "S'applique à tous les clients avec un rôle grossiste."
+
+#: includes/class-wwp-settings.php:283
+#, php-format
+msgid ""
+"<div class=\"wwp-upgrade-box\">\n"
+"                            <img class=\"wws-logo\" src=\"%s\" />\n"
+"                            <h2>Get Wholesale Suite and unlock all the "
+"wholesale features</h2>\n"
+"                            Thanks for being a loyal Wholesale Prices by "
+"Wholesale Suite user. Upgrade to unlock all of the extra wholesale features "
+"that makes Wholesale Suite consistently rated the best WooCommerce wholesale "
+"plugin.\n"
+"\n"
+"                            We know that you will truly love Wholesale "
+"Suite. It has 325+ five star ratings (<img class=\"fivestar\" src=\"%s\" />) "
+"and is active on over 20,000 stores.\n"
+"\n"
+"                            <div class=\"wwp-upgrade-box-row\">\n"
+"                                <div class=\"wwp-upgrade-box-col\">\n"
+"                                    <h3>Wholesale Prices Premium</h3>\n"
+"                                    <ul>\n"
+"                                        <li>+ Global & category level "
+"wholesale pricing</li>\n"
+"                                        <li>+ \"Wholesale Only\" products</"
+"li>\n"
+"                                        <li>+ Hide wholesale products from "
+"retail customers</li>\n"
+"                                        <li>+ Multiple levels of wholesale "
+"user roles</li>\n"
+"                                        <li>+ Manage wholesale pricing over "
+"multiple user tiers</li>\n"
+"                                        <li>+ Shipping mapping</li>\n"
+"                                        <li>+ Payment gateway mapping</li>\n"
+"                                        <li>+ Tax exemptions & fine grained "
+"tax display control</li>\n"
+"                                        <li>+ Order minimum quantities & "
+"subtotals</li>\n"
+"                                        <li>+ 100's of other premium pricing "
+"related features</li>\n"
+"                                    </ul>\n"
+"                                </div>\n"
+"                                <div class=\"wwp-upgrade-box-col\">\n"
+"                                    <h3>Wholesale Order Form</h3>\n"
+"                                    <ul>\n"
+"                                        <li>+ Most efficient one-page "
+"WooCommerce ordering form</li>\n"
+"                                        <li>+ No page loading/reloading, "
+"fully AJAX enabled</li>\n"
+"                                        <li>+ Advanced searching and "
+"category filtering</li>\n"
+"                                        <li>+ Your whole catalog at your "
+"customer's fingertips</li>\n"
+"                                    </ul>\n"
+"                                    <h3>Wholesale Lead Capture</h3>\n"
+"                                    <ul>\n"
+"                                        <li>+ Automatically recruit & "
+"register wholesale customers</li>\n"
+"                                        <li>+ Save huge amounts of admin "
+"time & recruit on autopilot</li>\n"
+"                                        <li>+ Full registration form "
+"builder</li>\n"
+"                                        <li>+ Custom fields capability to "
+"capture all required information</li>\n"
+"                                        <li>+ Full automated mode OR manual "
+"approvals mode</li>\n"
+"                                    </ul>\n"
+"                                </div>\n"
+"                            </div>\n"
+"\n"
+"                            <div class=\"actions\">\n"
+"                                <a href=\"%s\" target=\"_blank\">Get "
+"Wholesale Suite today & unlock these powerful features + more &rarr;</a>\n"
+"                                <p><span style=\"font-weight: bold;\">Bonus: "
+"</span> Wholesale Prices lite users get <span class=\"green-text\">50&#37; "
+"off regular price</span>, automatically applied at checkout.\n"
+"                            </div>\n"
+"                        </div>\n"
+"                        "
+msgstr ""
+"<div class=\"wwp-upgrade-box\">\n"
+"                            <img class=\"wws-logo\" src=\"%s\" />\n"
+"                            <h2>Passez à la Suite Wholesale et débloquez "
+"toutes les fonctionnalités de gros</h2>\n"
+"                            Merci d’être un utilisateur fidèle de Wholesale "
+"Prices by Wholesale Suite. Upgrade pour débloquer toutes les fonctionnalités "
+"de vente gros qui font que Wholesale Suite est constamment notée meilleure "
+"extension de vente en gros pour WooCommerce.\n"
+"\n"
+"                            Nous savons que vous aimerez vraiment Wholesale "
+"Suite. Elle a plus 325+ notes cinq étoiles (<img class=\"fivestar\" src=\"%s"
+"\" />) et est active sur plus de  20 000 boutiques.\n"
+"\n"
+"                            <div class=\"wwp-upgrade-box-row\">\n"
+"                                <div class=\"wwp-upgrade-box-col\">\n"
+"                                    <h3>Wholesale Prices Premium</h3>\n"
+"                                    <ul>\n"
+"                                        <li>+ Prix de gros global et par "
+"catégorie</li>\n"
+"                                        <li>+ Produits \"Grossistes "
+"uniquement\"</li>\n"
+"                                        <li>+ Masquez les produits de gros "
+"aux clients de détail</li>\n"
+"                                        <li>+ Multiples niveaux de rôles "
+"grossistes</li>\n"
+"                                        <li>+ Gérez vos prix de gros selon "
+"plusieurs critères</li>\n"
+"                                        <li>+ Gestion de l’expédition</li>\n"
+"                                        <li>+ Gestion des moyens de "
+"paiement</li>\n"
+"                                        <li>+ Exonération de taxe et "
+"contrôle fin de l’affichage des taxes</li>\n"
+"                                        <li>+ Minimum de commande en "
+"quantité & sous-total</li>\n"
+"                                        <li>+ d’une 100aine de "
+"fonctionnalités premium liées aux prix</li>\n"
+"                                    </ul>\n"
+"                                </div>\n"
+"                                <div class=\"wwp-upgrade-box-col\">\n"
+"                                    <h3>Wholesale Order Form</h3>\n"
+"                                    <ul>\n"
+"                                        <li>+ Le formulaire de commande "
+"WooCommerce en une page le plus efficace</li>\n"
+"                                        <li>+ Pas de rechargement de page, "
+"entièrement en AJAX</li>\n"
+"                                        <li>+ Recherche avancée et filtrage "
+"des catégories</li>\n"
+"                                        <li>+ Votre catalogue entier au bout "
+"des doigts de vos clients</li>\n"
+"                                    </ul>\n"
+"                                    <h3>Wholesale Lead Capture</h3>\n"
+"                                    <ul>\n"
+"                                        <li>+ Inscrivez et enregistrez "
+"automatiquement vos clients grossistes</li>\n"
+"                                        <li>+ Économisez énormément de temps "
+"d’administration et inscrivez en mode automatique</li>\n"
+"                                        <li>+ Constructeur de formulaire "
+"complet</li>\n"
+"                                        <li>+ Champs personnalisés pour "
+"traiter toutes les informations requises</li>\n"
+"                                        <li>+ Approbation manuelle OU "
+"complètement automatisée</li>\n"
+"                                    </ul>\n"
+"                                </div>\n"
+"                            </div>\n"
+"\n"
+"                            <div class=\"actions\">\n"
+"                                <a href=\"%s\" target=\"_blank\">Achetez "
+"Wholesale Suite dès aujourd’hui et débloquez ces puissantes fonctions et "
+"plus encore &rarr;</a>\n"
+"                                <p><span style=\"font-weight: bold;\">Prime: "
+"</span> Les utilisateurs de Wholesale Prices lite obtiennent <span class="
+"\"green-text\">50&#37; de réduction</span>, appliqué automatiquemetnt lors "
+"de l’achat.\n"
+"                            </div>\n"
+"                        </div>\n"
+"                        "
+
+#: includes/class-wwp-settings.php:371
+msgid "Price Options"
+msgstr "Options de prix"
+
+#: includes/class-wwp-settings.php:378
+msgid "Wholesale Price Text"
+msgstr "Texte du prix de gros"
+
+#: includes/class-wwp-settings.php:380
+msgid ""
+"The text shown immediately before the wholesale price. Default is "
+"\"Wholesale Price: \""
+msgstr ""
+"Texte affiché juste avant le prix de gros. Par défaut \"Prix de gros: \""
+
+#: includes/class-wwp-settings.php:386
+msgid "Hide Retail Price"
+msgstr "Masquer le prix de base"
+
+#: includes/class-wwp-settings.php:388
+msgid ""
+"Hide retail price instead of showing a crossed out price if a wholesale "
+"price is present."
+msgstr ""
+"Masque le prix de base au lieu de l'afficher barré si un prix de gros existe."
+
+#: includes/class-wwp-settings.php:395
+msgid "Always Use Regular Price"
+msgstr "Toujours utiliser le prix de base"
+
+#: includes/class-wwp-settings.php:397
+msgid ""
+"When calculating the wholesale price by using a percentage (global discount "
+"% or category based %) always ensure the Regular Price is used and ignore "
+"the Sale Price if present."
+msgstr ""
+"Lors du calcul du prix de gros en utilisant un pourcentage (% de remise "
+"globale ou % de remise par catégorie), s'assure de toujours utiliser le prix "
+"de base et d'ignorer tout prix remisé pouvant exister."
+
+#: includes/class-wwp-settings.php:403
+msgid "Variable Product Price Display"
+msgstr "Affichage du prix des produits à variations"
+
+#: includes/class-wwp-settings.php:405
+msgid ""
+"Specify the format in which variable product prices are displayed. Only for "
+"wholesale customers."
+msgstr ""
+"Précise le format dans lequel le prix des produits à variations est affiché. "
+"Uniquement pour les clients grossistes."
+
+#: includes/class-wwp-settings.php:410
+msgid "Price Range"
+msgstr "Fourchette de prix"
+
+#: includes/class-wwp-settings.php:411
+msgid "Minimum Price (Premium)"
+msgstr "Prix minimum (Premium)"
+
+#: includes/class-wwp-settings.php:412
+msgid "Maximum Price (Premium)"
+msgstr "Prix maximum (Premium)"
+
+#: includes/class-wwp-settings.php:417
+msgid "Hide Wholesale Price on Admin Product Listing"
+msgstr "Masquer le prix de gros à l'administrateur dans la liste des produits"
+
+#: includes/class-wwp-settings.php:419
+msgid ""
+"If checked, hides wholesale price per wholesale role on the product listing "
+"on the admin page."
+msgstr ""
+"Si coché, masque les prix de gros par rôle grossiste sur la liste des "
+"produits dans la page d'administration."
+
+#: includes/class-wwp-settings.php:425
+msgid "Hide Price and Add to Cart button"
+msgstr "Masquer le prix et le bouton Ajouter au panier"
+
+#: includes/class-wwp-settings.php:427
+msgid "If checked, hides price and add to cart button for visitors."
+msgstr "Si coché, masque le prix et le bouton Ajouter au panier aux visiteurs."
+
+#: includes/class-wwp-settings.php:433
+msgid "Price and Add to Cart Replacement Message"
+msgstr "Message de remplacement pour le prix et le bouton Ajouter au panier"
+
+#: includes/class-wwp-settings.php:435
+msgid ""
+"This message is only shown if <b>Hide Price and Add to Cart button</b> is "
+"enabled. \"Login to see prices\" is the default message."
+msgstr ""
+"Ce message est affiché uniquement <b>Masquer le prix et le bouton Ajouter au "
+"panier</b> si est activé. \"Connectez-vous pour voir les prix\" est le "
+"message par défaut."
+
+#: includes/class-wwp-settings.php:441
+msgid "Show Wholesale Price to non-wholesale users"
+msgstr "Montrer le prix de gros aux clients de détail"
+
+#: includes/class-wwp-settings.php:443
+msgid ""
+"If checked, displays the wholesale price on the front-end to entice non-"
+"wholesale customers to register as wholesale customers. This is only shown "
+"for guest, customers, administrator, and shop managers."
+msgstr ""
+"Si coché, affiche le prix de gros sur le site vitrine pour inciter les "
+"clients non grossistes à s’enregistrer en tant que clients grossistes. Ceci "
+"est uniquement montré aux invités, clients, administrateurs et gestionnaires "
+"de boutique."
+
+#: includes/class-wwp-settings.php:471
+msgid "Tax Options"
+msgstr "Options de taxe"
+
+#: includes/class-wwp-settings.php:478
+msgid "Tax Exemption"
+msgstr "Exonération de taxe"
+
+#: includes/class-wwp-settings.php:480
+msgid "Do not apply tax to all wholesale roles"
+msgstr "N'appliquer aucune taxe à tous les rôles grossistes"
+
+#: includes/class-wwp-settings.php:481
+msgid ""
+"Removes tax for all wholesale roles. All wholesale prices will display "
+"excluding tax throughout the store, cart and checkout. The display settings "
+"below will be ignored."
+msgstr ""
+"Supprime la taxe pour tous les rôles grossistes. Tous les prix de gros "
+"seront affichés hors taxe sur toute la boutique, le panier et le paiement. "
+"Les paramètres d'affichage ci-dessous seront ignorés."
+
+#: includes/class-wwp-settings.php:486
+msgid "Display Prices in the Shop"
+msgstr "Afficher les prix dans la boutique"
+
+#: includes/class-wwp-settings.php:489
+msgid "Choose how wholesale roles see all prices throughout your shop pages."
+msgstr ""
+"Choisissez comment les rôles grossistes voient les prix sur les pages de "
+"votre boutique."
+
+#: includes/class-wwp-settings.php:490
+msgid ""
+"Note: If the option above of \"Tax Exempting\" wholesale users is enabled, "
+"then wholesale prices on shop pages will not include tax regardless the "
+"value of this option."
+msgstr ""
+"Note: Si l'option ci-dessus \"Exonération de taxe\" pour les clients "
+"grossistes est activée, alors les prix de gros sur les pages boutique "
+"n'inclueront pas la taxe quelque soit la valeur de cette option."
+
+#: includes/class-wwp-settings.php:492 includes/class-wwp-settings.php:507
+msgid "--Use woocommerce default--"
+msgstr "--Utiliser la valeur par défaut de woocommerce--"
+
+#: includes/class-wwp-settings.php:493 includes/class-wwp-settings.php:508
+msgid "Including tax (Premium)"
+msgstr "Taxes incluses (Premium)"
+
+#: includes/class-wwp-settings.php:494 includes/class-wwp-settings.php:509
+msgid "Excluding tax (Premium)"
+msgstr "Taxes exclues (Premium)"
+
+#: includes/class-wwp-settings.php:501
+msgid "Display Prices During Cart and Checkout"
+msgstr "Afficher les prix dans le panier et lors du paiement"
+
+#: includes/class-wwp-settings.php:504
+msgid ""
+"Choose how wholesale roles see all prices on the cart and checkout pages."
+msgstr ""
+"Choisissez comment les rôles grossistes voient les prix sur les pages panier "
+"et paiement."
+
+#: includes/class-wwp-settings.php:505
+msgid ""
+"Note: If the option above of \"Tax Exempting\" wholesale users is enabled, "
+"then wholesale prices on cart and checkout page will not include tax "
+"regardless the value of this option."
+msgstr ""
+"Note: Si l'option ci-dessus \"Exonération de taxe\" pour les clients "
+"grossistes est activée, alors les prix de gros sur les pages panier et "
+"paiement n'inclueront pas la taxe quelque soit la valeur de cette option."
+
+#: includes/class-wwp-settings.php:516
+msgid "Override Regular Price Suffix"
+msgstr "Redéfinir le suffixe du prix de base"
+
+#: includes/class-wwp-settings.php:518
+msgid "Override the price suffix on regular prices for wholesale users."
+msgstr ""
+"Passe outre le suffixe de prix des prix de base pour les clients grossistes."
+
+#: includes/class-wwp-settings.php:519 includes/class-wwp-settings.php:527
+msgid ""
+"Make this blank to use the default price suffix. You can also use prices "
+"substituted here using one of the following {price_including_tax} and "
+"{price_excluding_tax}."
+msgstr ""
+"Laissez vide pour utiliser le suffixe par défaut. Vous pouvez aussi utiliser "
+"les prix substitués ici en utilisant les termes suivants "
+"{price_including_tax} et {price_excluding_tax}."
+
+#: includes/class-wwp-settings.php:524
+msgid "Wholesale Price Suffix"
+msgstr "Suffixe du prix de gros"
+
+#: includes/class-wwp-settings.php:526
+msgid "Set a specific price suffix specifically for wholesale prices."
+msgstr "Définit un suffixe de prix spécifique pour les prix de gros."
+
+#: includes/class-wwp-settings.php:537
+msgid "Wholesale Role / Tax Exemption Mapping"
+msgstr "Correspondance rôle grossiste / exonération de taxe"
+
+#: includes/class-wwp-settings.php:540
+#, php-format
+msgid ""
+"Specify tax exemption per wholesale role. Overrides general <b>\"Tax "
+"Exemption\"</b> option above.\n"
+"\n"
+"                                    In the Premium add-on you can map "
+"specific wholesale roles to be tax exempt which gives you more control. This "
+"is useful for classifying customers\n"
+"                                    based on their tax exemption status so "
+"you can separate those who need to pay tax and those who don't.\n"
+"\n"
+"                                    This feature and more is available in "
+"the <a target=\"_blank\" href=\"%1$s\">Premium add-on</a> and we also have "
+"other wholesale tools available as part of the <a target=\"_blank\" href="
+"\"%2$s\">Wholesale Suite Bundle</a>."
+msgstr ""
+"Définissez l'exonération de taxe par rôle grossiste. Passez outre l'option "
+"générale <b>\"Exonération de taxe\"</b>ci-dessus.\n"
+"\n"
+"                                    Avec le module Premium vous pouvez "
+"sélectionner des rôles grossistes spécifiques afin qu'ils soient exonérés de "
+"taxe ce qui vous donne plus de contrôle. Très utile pour classer les "
+"clients \n"
+"                                    en fonction de leur statut relatif à "
+"l'exonération de taxe afin que vous puissiez séparer ceux qui doivent et "
+"ceux qui ne doivent pas s'acquitter des taxes.\n"
+"\n"
+"                                    Cette fonctionnalité et bien plus est "
+"disponible dans le <a target=\"_blank\" href=\"%1$s\">module Premium</a> et "
+"nous avons aussi d'autres outils de vente en gros disponibles dans l'offre "
+"groupée <a target=\"_blank\" href=\"%2$s\">Wholesale Suite</a>."
+
+#: includes/class-wwp-settings.php:563
+msgid "Wholesale Role / Tax Class Mapping"
+msgstr "Correspondance rôle grossiste / classe d'imposition de taxe"
+
+#: includes/class-wwp-settings.php:566
+#, php-format
+msgid ""
+"Specify tax classes per wholesale role.\n"
+"\n"
+"                                    In the Premium add-on you can map "
+"specific wholesale role to specific tax classes. You can also hide those "
+"mapped tax classes from your regular\n"
+"                                    customers making it possible to "
+"completely separate tax functionality for wholesale customers.\n"
+"\n"
+"                                    This feature and more is available in "
+"the <a target=\"_blank\" href=\"%1$s\">Premium add-on</a> and we also have "
+"other wholesale tools available as part of the <a target=\"_blank\" href="
+"\"%2$s\">Wholesale Suite Bundle</a>."
+msgstr ""
+"Définissez des classes d'imposition de taxe par rôle grossiste.\n"
+"\n"
+"                                    Avec le module Premium vous pouvez lier "
+"des rôles grossistes à des classes d'imposition spécifiques. Vous pouvez "
+"aussi cacher ces classes d'imposition à vos client de détail\n"
+"                                    rendant possible de complètement "
+"réserver la fonctionnalité de taxe aux clients grossistes.\n"
+"\n"
+"                                    Cette fonctionnalité et bien plus est "
+"disponible dans le <a target=\"_blank\" href=\"%1$s\">module Premium</a> et "
+"nous avons aussi d'autres outils de vente en gros disponibles dans l'offre "
+"groupée <a target=\"_blank\" href=\"%2$s\">Wholesale Suite</a>."
+
+#: includes/class-wwp-settings.php:651
+msgid "Help Options"
+msgstr "Options d’aide"
+
+#: includes/class-wwp-settings.php:811
+msgid "Wholesale Suite Bundle &rarr;"
+msgstr "Offre groupée Wholesale Suite &rarr;"
+
+#: includes/class-wwp-settings.php:812
+msgid "3x wholesale plugins"
+msgstr "3 extensions de vente en gros"
+
+#: includes/class-wwp-settings.php:816
+msgid "Wholeasale Prices Premium Add-on &rarr;"
+msgstr "Module Wholeasale Prices Premium &rarr;"
+
+#: includes/class-wwp-usage.php:359
+msgid "Once Weekly"
+msgstr "Hebdomadaire"
+
+#: includes/class-wwp-usage.php:390
+msgid "Wholesale Suite Usage Tracking Permission"
+msgstr "Autorisation de suivi de l'utilisation de la suite en gros"
+
+#: includes/class-wwp-usage.php:394
+msgid "Allow"
+msgstr "Autoriser"
+
+#: includes/class-wwp-usage.php:395
+msgid "Do not allow"
+msgstr "Ne pas autoriser"
+
+#: includes/class-wwp-wholesale-price-for-non-wholesale-customers.php:115
+#: includes/class-wwp-wholesale-prices.php:487
+msgid "Wholesale Price:"
+msgstr "Prix de gros:"
+
+#: includes/class-wwp-wholesale-price-for-non-wholesale-customers.php:269
+msgid "Click here to register as a wholesale customer"
+msgstr "Cliquez ici pour vous inscrire en tant que client grossiste"
+
+#: includes/class-wwp-wholesale-price-for-non-wholesale-customers.php:300
+msgid "See wholesale prices"
+msgstr "Cliquez pour voir le texte des prix de gros"
+
+#: includes/class-wwp-wholesale-prices.php:1129
+msgid "Login to see prices"
+msgstr "Connectez-vous pour voir les prix"
+
+#: includes/class-wwp-wholesale-roles-admin-page.php:96
+#: includes/class-wwp-wholesale-roles-admin-page.php:97
+#, fuzzy
+#| msgid "Role Key"
+msgid "Roles"
+msgstr "Clé du rôle"
+
+#: includes/class-wwp-wholesale-roles-admin-page.php:176
+#, php-format
+msgid "Specified Wholesale Role (%1$s) Does not Exist"
+msgstr "Le rôle grossiste spécifié (%1$s) n'existe pas"
+
+#: includes/class-wwp-wholesale-roles.php:331
+#: views/wholesale-roles/view-wwp-wholesale-roles-admin-page.php:4
+msgid "Wholesale Roles"
+msgstr "Rôles grossistes"
+
+#: includes/wc-admin-notes/class-wwp-install-acfw.php:79
+msgid ""
+"This free plugin extends your coupon features. Market your store better with "
+"WooCommerce coupons. Install the free plugin now."
+msgstr ""
+"Cette extension gratuite augmente les fonctionnalités de vos codes promo. "
+"Améliorez vos ventes avec les codes promo WooCommerce. Installez l'extension "
+"gratuite maintenant."
+
+#: includes/wc-admin-notes/class-wwp-install-acfw.php:84
+msgid "Install Advanced Coupons (FREE PLUGIN)"
+msgstr "Advanced Coupons  (EXTENSION GRATUITE)"
+
+#: includes/wc-admin-notes/class-wwp-install-acfw.php:90
+msgid "Install Now"
+msgstr "Installer maintenant"
+
+#: includes/wc-admin-notes/class-wwp-install-acfw.php:91
+msgid "Lean more"
+msgstr "En savoir plus"
+
+#: includes/wc-admin-notes/class-wwp-store-owner-tips-fb.php:69
+msgid ""
+"Want tips on how to grow your store? Come and join the Store Owner Tips "
+"Facebook group. Tips, articles and more, just for store owners."
+msgstr ""
+"Vous voulez des astuces sur la façon de faire prospérer votre boutique? "
+"Rejoignez le groupe Facebook d'astuces aux propriétaires de boutique. Des "
+"conseils, des articles et plus encore, juste pour les propriétaires de "
+"boutique."
+
+#: includes/wc-admin-notes/class-wwp-store-owner-tips-fb.php:74
+msgid "Join Store Owner Tips Facebook Group"
+msgstr "Rejoindre le groupe Facebook d'astuces aux propriétaires de boutique"
+
+#: includes/wc-admin-notes/class-wwp-store-owner-tips-fb.php:80
+msgid "Join Store Owner Tips on Facebook"
+msgstr "Rejoindre la page Facebook d'astuces aux propriétaires de boutique"
+
+#: includes/wc-admin-notes/class-wwp-wws-bundle.php:92
+msgid ""
+"Get the #1 rated wholesale solution for WooCommerce. Solve the big 3 "
+"problems facing store owners when wholesaling in WooCommerce."
+msgstr ""
+"Obtenez la solution n°1 de vente en gros pour WooCommerce. Résolvez les 3 "
+"grands problèmes que rencontrent les e-commerçants quand ils vendent en gros "
+"avec WooCommerce."
+
+#: includes/wc-admin-notes/class-wwp-wws-review.php:51
+msgid ""
+"We notice you've been using Wholesale Prices for a couple of weeks now. We'd "
+"love to get your review on our plugin listing! Your review helps give others "
+"the confidence to try our plugin."
+msgstr ""
+"Nous remarquons que vous utilisez Wholesale Prices depuis une quinzaine de "
+"jours maintenant. Nous aimerions avoir votre avis sur notre extension! Votre "
+"évaluation contribue à donner aux autres la confiance nécessaire pour "
+"essayer notre extension."
+
+#: includes/wc-admin-notes/class-wwp-wws-review.php:56
+#: includes/wc-admin-notes/class-wwp-wws-review.php:62
+msgid "Review Wholesale Prices"
+msgstr "Évaluer Wholesale Prices"
+
+#: includes/wc-admin-notes/class-wwp-wws-youtube.php:70
+msgid ""
+"Get all the wholesale tips & more at the Wholesale Suite Youtube channel. "
+"Click here to join."
+msgstr ""
+"Obteniez toutes les astuces sur la vente en gros et plus sur la chaîne "
+"Youtube de Wholesale Suite. Cliquez ici pour la rejoindre."
+
+#: includes/wc-admin-notes/class-wwp-wws-youtube.php:75
+msgid "Follow Wholesale Suite on Youtube"
+msgstr "Suivez Wholesale Suite sur Youtube"
+
+#: includes/wc-admin-notes/class-wwp-wws-youtube.php:81
+msgid "Wholesale Suite Youtube Channel"
+msgstr "Chaîne YouTube de Wholesale Suite"
+
+#: views/backend/product/single/view-wwp-product-wholesale-role-visibility-filter.php:12
+msgid "Restrict To Wholesale Roles:"
+msgstr "Restreindre aux rôles grossistes :"
+
+#: views/backend/product/single/view-wwp-product-wholesale-role-visibility-filter.php:13
+msgid ""
+"Set this product to be visible only to specified wholesale user role/s only"
+msgstr ""
+"Définit ce produit comme visible uniquement par le(s) rôle(s) client "
+"grossiste spécifiés"
+
+#: views/backend/product/single/view-wwp-product-wholesale-role-visibility-filter.php:17
+msgid "Choose wholesale users..."
+msgstr "Ceci est le rôle principal de vente en gros."
+
+#: views/plugin-settings-custom-fields/view-wwp-help-resources-controls-custom-field.php:6
+msgid "Knowledge Base"
+msgstr "Base de connaissance"
+
+#: views/plugin-settings-custom-fields/view-wwp-help-resources-controls-custom-field.php:9
+#, php-format
+msgid ""
+"Looking for documentation? Please see our growing <a href=\"%1$s\" target="
+"\"_blank\">Knowledge Base</a>"
+msgstr ""
+"Vous cherchez la documentation ? Veuillez consulter notre <a href=\"%1$s\" "
+"target=\"_blank\">Base de connaissance</a>"
+
+#: views/view-wwp-lead-capture.php:16 views/view-wwp-order-form.php:16
+msgid "Wholesale Suite"
+msgstr "Wholesale Suite"
+
+#: views/view-wwp-lead-capture.php:22
+msgid "Get More Wholesale Customers On Autopilot"
+msgstr "Obtenez plus de clients grossistes en mode automatique"
+
+#: views/view-wwp-lead-capture.php:24
+msgid ""
+"Wholesale Lead Capture gives you a customizable wholesale-specific "
+"registration form,<br />\n"
+"        wholesale user approvals system, email notifications, user "
+"upgrading, and more."
+msgstr ""
+"Wholesale Lead Capture vous apporte un formulaire d’enregistrement spécial "
+"grossistes personnalisable,<br />\n"
+"\t\tun système d’approbation des clients grossistes, des notificafions par e-"
+"mail, la mise à jour utilisateur, et plus."
+
+#: views/view-wwp-lead-capture.php:31 views/view-wwp-upgrade-upsell.php:105
+msgid "WooCommerce Wholesale Lead Capture"
+msgstr "WooCommerce Wholesale Lead Capture"
+
+#: views/view-wwp-lead-capture.php:36 views/view-wwp-order-form.php:35
+msgid "Trusted by over 20,000+ stores"
+msgstr "Plus de 20 000 boutiques lui font confiance"
+
+#: views/view-wwp-lead-capture.php:37 views/view-wwp-order-form.php:36
+msgid "5-star customer satisfaction rating"
+msgstr "Une satisfaction client notée 5 étoiles"
+
+#: views/view-wwp-lead-capture.php:38
+msgid "Custom wholesale registration form"
+msgstr "Formulaire d’enregistrement de client grossiste personnalisé"
+
+#: views/view-wwp-lead-capture.php:39
+msgid "Wholesale approvals system"
+msgstr "Système d’approbation des clients grossistes"
+
+#: views/view-wwp-lead-capture.php:40
+msgid "Customizable emails"
+msgstr "Emails personnalisables"
+
+#: views/view-wwp-lead-capture.php:47 views/view-wwp-order-form.php:46
+msgid "1"
+msgstr "1"
+
+#: views/view-wwp-lead-capture.php:50
+msgid "Purchase & Install Wholesale Lead Capture"
+msgstr "Achetez et installez Wholesale Lead Capture"
+
+#: views/view-wwp-lead-capture.php:51
+msgid ""
+"To grow your wholesale business you need an efficient way to onboard new "
+"wholesale customers without adding too\n"
+"        much admin overhead. Wholesale Lead Capture gives you all the forms "
+"& approval system tools you need."
+msgstr ""
+"Pour faire croître votre activité vous avez besoin d’un moyen efficace "
+"d’obtenir de nouveaux clients grossites sans vous\n"
+"\t\tajouter trop d’administratif. Wholesale Lead Capture vous apporte tous "
+"les outils de formulaire et de système d’approbation nécessaires."
+
+#: views/view-wwp-lead-capture.php:54
+msgid "Get Wholesale Lead Capture"
+msgstr "Obtenez Wholesale Lead Capture"
+
+#: views/view-wwp-lead-capture.php:60 views/view-wwp-order-form.php:59
+msgid "2"
+msgstr "2"
+
+#: views/view-wwp-lead-capture.php:63
+msgid "Configure Wholesale Lead Capture"
+msgstr "Paramétrer Wholesale Lead Capture"
+
+#: views/view-wwp-lead-capture.php:64
+msgid ""
+"Wholesale Lead Capture comes mostly configured out of the box, but with some "
+"small tweaks you will have the\n"
+"        perfect lead capturing form & approval process for your wholesale "
+"customers."
+msgstr ""
+"Wholesale Lead Capture arrive quasiment déjà paramétré, mais avec quelques "
+"petites adaptations, vous aurez\n"
+"\t\tle formulaire d’inscription et d’approbation pour tous vos clients "
+"grossistes."
+
+#: views/view-wwp-order-form.php:22
+#, fuzzy
+#| msgid "Get Wholesale Order Form"
+msgid "Get More Wholesale Sales With An Optimized Ordering Form"
+msgstr "Obtenez Wholesale Order Form"
+
+#: views/view-wwp-order-form.php:24
+#, fuzzy
+#| msgid ""
+#| "Wholesale Order Form is easy to set up and provides your customers with "
+#| "your entire catalog on one page."
+msgid ""
+"Wholesale Order Form is proven to get more wholesale sales than your normal "
+"shop layout.<br/>Give your wholesale customers searchable access to your "
+"entire catalog on one page."
+msgstr ""
+"Wholesale Order Form est facile à mettre en oeuvre et propose à vos clients "
+"votre catalogue entier sur une seule page."
+
+#: views/view-wwp-order-form.php:30 views/view-wwp-upgrade-upsell.php:90
+msgid "WooCommerce Wholesale Order Form"
+msgstr "WooCommerce Wholesale Order Form"
+
+#: views/view-wwp-order-form.php:37
+msgid "Search entire catalog on one page"
+msgstr "Rechercher dans un catalogue entier sur une seule page"
+
+#: views/view-wwp-order-form.php:38
+msgid "Mobile & tablet friendly"
+msgstr "Compatible smartphone et tablette"
+
+#: views/view-wwp-order-form.php:39
+msgid "Easy product table"
+msgstr "Table produit facile"
+
+#: views/view-wwp-order-form.php:49
+msgid "Purchase & Install Wholesale Order Form"
+msgstr "Acheter et installer Wholesale Order Form"
+
+#: views/view-wwp-order-form.php:50
+#, fuzzy
+#| msgid ""
+#| "Less \"admin busy work\" for you and your team and quicker ordering for "
+#| "your customers. \n"
+#| "      Get the most efficient one-page WooCommerce order form – your "
+#| "wholesale customers will love it!"
+msgid ""
+"Less \"admin busy work\" for you and your team and quicker ordering for your "
+"customers.\n"
+"      Get the most efficient one-page WooCommerce order form – your "
+"wholesale customers will love it!"
+msgstr ""
+"Moins \"de paparasse administrative\" pour vous et votre équipe et des "
+"commandes plus rapides pour vos clients.\n"
+"\t\tObtenez le formulaire de commande WooCommerce en une page le plus "
+"efficace - vos clients grossistes vont l’adorer !"
+
+#: views/view-wwp-order-form.php:53
+msgid "Get Wholesale Order Form"
+msgstr "Obtenez Wholesale Order Form"
+
+#: views/view-wwp-order-form.php:62
+msgid "Configure Wholesale Order Form"
+msgstr "Configurer Wholesale Order Form"
+
+#: views/view-wwp-order-form.php:63
+msgid ""
+"Wholesale Order Form is easy to set up and provides your customers with your "
+"entire catalog on one page."
+msgstr ""
+"Wholesale Order Form est facile à mettre en oeuvre et propose à vos clients "
+"votre catalogue entier sur une seule page."
+
+#: views/view-wwp-upgrade-upsell.php:9 views/view-wwp-upgrade-upsell.php:75
+#: views/view-wwp-upgrade-upsell.php:85 views/view-wwp-upgrade-upsell.php:100
+#: views/view-wwp-upgrade-upsell.php:115
+msgid "WooCommerce Wholesale Prices Premium"
+msgstr "WooCommerce Wholesale Prices Premium"
+
+#: views/view-wwp-upgrade-upsell.php:10
+msgid "Free vs Premium"
+msgstr "Gratuit vs Premium"
+
+#: views/view-wwp-upgrade-upsell.php:11
+msgid ""
+"If you are serious about growing your wholesale sales within your "
+"WooCommerce store then the Premium add-on to the free WooCommerce Wholesale "
+"Prices plugin that you are currently using can help you."
+msgstr ""
+"Si vous êtes sérieux au sujet de la croissance de vos ventes en gros sur "
+"votre boutique WooCommerce alors le module Premium de la version gratuite de "
+"l'extension WooCommerce Wholesale Prices que vous utilisez actuellement peut "
+"vous aider."
+
+#: views/view-wwp-upgrade-upsell.php:16
+msgid "Features"
+msgstr "Fonctionnalités"
+
+#: views/view-wwp-upgrade-upsell.php:17
+msgid "Free Plugin"
+msgstr "Extension Gratuite"
+
+#: views/view-wwp-upgrade-upsell.php:18
+msgid "Premium Add-on"
+msgstr "Module Premium"
+
+#: views/view-wwp-upgrade-upsell.php:23
+msgid "Flexible wholesale pricing"
+msgstr "Prix de gros variable"
+
+#: views/view-wwp-upgrade-upsell.php:24
+msgid ""
+"Not available. Only basic wholesale pricing at the product level allowed."
+msgstr "Non disponible. Seul un prix de gros basique par produit est autorisé."
+
+#: views/view-wwp-upgrade-upsell.php:25
+msgid ""
+"Set wholesale pricing at the global (%), category (%) or the product level. "
+"Also includes quantity based pricing."
+msgstr ""
+"Définissez le prix de gros via un % global, un % par catégorie ou au niveau "
+"produit. Inclut aussi un prix fonction de la quantité."
+
+#: views/view-wwp-upgrade-upsell.php:28
+msgid "Product visibility control"
+msgstr "Contrôle de la visibilité produit"
+
+#: views/view-wwp-upgrade-upsell.php:29 views/view-wwp-upgrade-upsell.php:39
+#: views/view-wwp-upgrade-upsell.php:44 views/view-wwp-upgrade-upsell.php:49
+#: views/view-wwp-upgrade-upsell.php:54
+msgid "Not available"
+msgstr "Non disponible"
+
+#: views/view-wwp-upgrade-upsell.php:30
+msgid ""
+"Make products \"Wholesale Only\", hide \"Retail Only\" products from "
+"wholesale customers, create variations that are \"Wholesale Only\"."
+msgstr ""
+"Définissez des produits comme \"Vendu en gros seulement\", cachez les "
+"produits \"Au détail seulement\" de vos clients grossistes, créez des "
+"variations qui soient \"Vendu en gros seulement\"."
+
+#: views/view-wwp-upgrade-upsell.php:33
+msgid "Multiple wholesale role levels"
+msgstr "Multiples rôles grossiste"
+
+#: views/view-wwp-upgrade-upsell.php:34
+msgid "Not available. Only one wholesale role."
+msgstr "Non disponible. Seulement un rôle grossiste."
+
+#: views/view-wwp-upgrade-upsell.php:35
+msgid ""
+"Add multiple wholesale role levels and use them to manage wholesale pricing, "
+"shipping mapping, payment mapping, tax exemption, order minimums and more."
+msgstr ""
+"Ajoutez de multiples niveaux de rôles grossiste et utilisez-les pour gérer "
+"vos prix de gros, les méthodes d'expédition, modes de paiement, exonérations "
+"de taxes, minimum de commande et plus encore."
+
+#: views/view-wwp-upgrade-upsell.php:38
+msgid "Advanced tax control"
+msgstr "Contrôle de taxe avancé"
+
+#: views/view-wwp-upgrade-upsell.php:40
+msgid ""
+"Fine grained control over price tax display for wholesale, tax exemptions "
+"per user role and more."
+msgstr ""
+"Contrôlez finement l'affichage de la taxe pour les ventes en gros, les "
+"exonérations de taxe par rôle client et plus encore."
+
+#: views/view-wwp-upgrade-upsell.php:43
+msgid "Shipping method mapping"
+msgstr "Correspondance des méthodes d'expédition"
+
+#: views/view-wwp-upgrade-upsell.php:45
+msgid ""
+"Manage which shipping methods wholesale customers can see and use compared "
+"to retail customers."
+msgstr ""
+"Définissez quels modes d'expédition vos clients grossistes peuvent voir et "
+"utiliser par rapport à vos clients de détail."
+
+#: views/view-wwp-upgrade-upsell.php:48
+msgid "Payment gateway mapping"
+msgstr "Correspondance des plateformes de paiement"
+
+#: views/view-wwp-upgrade-upsell.php:50
+msgid ""
+"Manage which payment gateways wholesale customers can see and use compared "
+"to retail customers."
+msgstr ""
+"Définissez quels modes de paiement vos clients grossistes peuvent voir et "
+"utiliser par rapport à vos clients de détail."
+
+#: views/view-wwp-upgrade-upsell.php:53
+msgid "Set product and order minimums"
+msgstr "Définir des minimums par produit et par commande"
+
+#: views/view-wwp-upgrade-upsell.php:55
+msgid ""
+"Use product minimums and order minimums to ensure wholesale customers are "
+"meeting requirements."
+msgstr ""
+"Utilisez des minimums par produit et par commande afin d'assurer que vos "
+"clients grossistes satisfassent ces obligations."
+
+#: views/view-wwp-upgrade-upsell.php:59
+msgid "+100's of other premium wholesale features"
+msgstr "+ 100 autres fonctions de vente en gros premium"
+
+#: views/view-wwp-upgrade-upsell.php:71
+msgid "Wholesale Suite Bundle"
+msgstr "Offre groupée Wholesale Suite"
+
+#: views/view-wwp-upgrade-upsell.php:72
+msgid ""
+"Everything you need to sell to wholesale customers in WooCommerce. <br/>The "
+"most complete wholesale solution for building wholesale sales into your "
+"existing WooCommerce driven store."
+msgstr ""
+"Tout ce dont vous avez besoin pour vendre à vos clients grossistes avec "
+"WooCommerce.<br/>La solution de vente en gros la plus complète pour mettre "
+"en œuvre des ventes en gros dans votre boutique WooCommerce existante."
+
+#: views/view-wwp-upgrade-upsell.php:78
+msgid ""
+"Easily add wholesale pricing to your products. Control product visibility. "
+"Satisfy your country's strictest tax requirements & control\n"
+"                            pricing display. Force wholesalers to use "
+"certain shipping & payment gateways. Enforce order minimums and individual "
+"product minimums. And 100's\n"
+"                            of other product and pricing related wholesale "
+"features."
+msgstr ""
+"Ajoutez facilement des prix de gros à vos produits. Contrôlez la visibilité "
+"des produits. Conformez-vous complètement aux obligations de taxes de votre "
+"pays et contrôlez l'affichage des prix. Forcez les clients grossites à "
+"utiliser certains modes de livraison et de paiement. Imposez des minimums de "
+"commande et des minimums de produits individuels. Et une 100aine d'autres "
+"fonctionnalités relatives aux produits et prix de gros."
+
+#: views/view-wwp-upgrade-upsell.php:82
+msgid "Learn more about Prices Premium"
+msgstr "En savoir plus sur Prices Premium"
+
+#: views/view-wwp-upgrade-upsell.php:93
+msgid ""
+"Decrease frustration and increase order size with the most efficient one-"
+"page WooCommerce order form.\n"
+"                            Your wholesale customers will love it. No page "
+"loading means less back & forth, full ajax enabled add to cart buttons,\n"
+"                            responsive layout for on-the-go ordering and "
+"your whole product catalog available at your customer's fingertips."
+msgstr ""
+"Amoindrissez la frustration et augmentez le volume de commande avec le "
+"formulaire de commande WooCommerce en une unique page le plus efficace. Vos "
+"clients grossistes vont l'adorer. Aucune autre page à charger signifie moins "
+"d'aller-retours, des boutons d'ajout au panier dynamiques en ajax, un "
+"affichage adaptatif pour les commandes en mobilité et votre catalogue "
+"produit complet disponible au bout des doigts de vos clients."
+
+#: views/view-wwp-upgrade-upsell.php:97
+msgid "Learn more about Order Form"
+msgstr "En savoir plus sur Order Form"
+
+#: views/view-wwp-upgrade-upsell.php:108
+msgid ""
+"Take the pain out of manually recruiting & registering wholesale customers. "
+"Lead Capture will save you admin time and recruit wholesale customers\n"
+"                            for your WooCommerce store on autopilot. Full "
+"registration form builder, automated email onboarding email sequence, full "
+"automated or manual approvals\n"
+"                            system and much more."
+msgstr ""
+"Épargnez-vous la peine de l'inscription et l'enregistrement de clients "
+"grossites. Lead Capture vous évite du temps d'administration et inscrit pour "
+"vous les clients grossistes dans votre boutique WooCommerce en mode "
+"automatique. Constructeur de formulaire d'inscription complet, séquence "
+"d’emails d’intégration automatisée, système d'approbation automatique ou "
+"manuel, et plus encore."
+
+#: views/view-wwp-upgrade-upsell.php:112
+msgid "Learn more about Lead Capture"
+msgstr "En savoir plus sur Lead Capture"
+
+#: views/view-wwp-upgrade-upsell.php:120
+msgid "The WooCommerce extensions to grow your wholesale business"
+msgstr ""
+"Les extensions WooCommerce pour faire prospérer votre commerce de vente en "
+"gros"
+
+#: views/view-wwp-upgrade-upsell.php:122
+msgid "See the full bundle now"
+msgstr "Voir l'offre groupée complète maintenant"
+
+#: views/wholesale-roles/view-wwp-wholesale-roles-admin-page.php:5
+msgid "Add New Role"
+msgstr "Ajouter un rôle"
+
+#: views/wholesale-roles/view-wwp-wholesale-roles-admin-page.php:14
+#: views/wholesale-roles/view-wwp-wholesale-roles-admin-page.php:65
+msgid "Name"
+msgstr "Nom"
+
+#: views/wholesale-roles/view-wwp-wholesale-roles-admin-page.php:15
+#: views/wholesale-roles/view-wwp-wholesale-roles-admin-page.php:66
+msgid "Key"
+msgstr "Clé"
+
+#: views/wholesale-roles/view-wwp-wholesale-roles-admin-page.php:16
+#: views/wholesale-roles/view-wwp-wholesale-roles-admin-page.php:67
+#: views/wholesale-roles/view-wwp-wholesale-roles-admin-page.php:115
+msgid "Description"
+msgstr "Description"
+
+#: views/wholesale-roles/view-wwp-wholesale-roles-admin-page.php:39
+#: views/wholesale-roles/view-wwp-wholesale-roles-admin-page.php:47
+msgid "Edit"
+msgstr "Modifier"
+
+#: views/wholesale-roles/view-wwp-wholesale-roles-admin-page.php:48
+msgid "Delete"
+msgstr "Supprimer"
+
+#: views/wholesale-roles/view-wwp-wholesale-roles-admin-page.php:76
+msgid "Add additional wholesale roles"
+msgstr "Ajouter des rôles grossistes supplémentaires"
+
+#: views/wholesale-roles/view-wwp-wholesale-roles-admin-page.php:79
+#, php-format
+msgid ""
+"In the <a href=\"%1$s\" target=\"_blank\">Premium add-on</a> you can add "
+"multiple wholesale roles. This will let you create separate \"levels\" of "
+"wholesale customers,\n"
+"                        each of which can have separate wholesale pricing, "
+"shipping and payment mapping, order minimums and more."
+msgstr ""
+"Avec le <a href=\"%1$s\" target=\"_blank\">module Premium</a> vous pouvez "
+"créer de multiples rôles grossistes. Ceci vous permettre de créer différents "
+"\"niveaux\" de clients grossistes, chacun pouvant avoir ses propres prix de "
+"gros, frais de port, mode de paiement minimum de commande et plus encore."
+
+#: views/wholesale-roles/view-wwp-wholesale-roles-admin-page.php:98
+#: views/wholesale-roles/view-wwp-wholesale-roles-admin-page.php:121
+msgid "Edit Wholesale Role"
+msgstr "Modifier le rôle"
+
+#: views/wholesale-roles/view-wwp-wholesale-roles-admin-page.php:103
+msgid "Role Name"
+msgstr "Nom du rôle"
+
+#: views/wholesale-roles/view-wwp-wholesale-roles-admin-page.php:105
+msgid "Required. Recommended to be unique."
+msgstr "Requis. Il est recommandé qu'il soit unique."
+
+#: views/wholesale-roles/view-wwp-wholesale-roles-admin-page.php:109
+msgid "Role Key"
+msgstr "Clé du rôle"
+
+#: views/wholesale-roles/view-wwp-wholesale-roles-admin-page.php:111
+msgid ""
+"Required. Must be unique. Must only contain letters, numbers and underscores"
+msgstr ""
+"Requis. Doit être unique. Ne doit contenir que des lettres, des chiffres et "
+"des tirets bas."
+
+#: views/wholesale-roles/view-wwp-wholesale-roles-admin-page.php:117
+msgid "Optional."
+msgstr "Facultatif."
+
+#: views/wholesale-roles/view-wwp-wholesale-roles-admin-page.php:122
+msgid "Cancel Edit"
+msgstr "Annuler la modification"
+
+#: woocommerce-wholesale-prices.bootstrap.php:101
+msgid "Important Notice:"
+msgstr "Avertissement:"
+
+#: woocommerce-wholesale-prices.bootstrap.php:102
+#, php-format
+msgid ""
+"We have detected an outdated version of WooCommerce Wholesale Prices "
+"Premium. You require at least version %1$s for this version of WooCommerce "
+"Wholesale Prices ( %2$s ). Please update now."
+msgstr ""
+"Nous avons détecté une version obsolète de WooCommerce Wholesale Prices "
+"Premium. Vous devez avoir au moins la version %1$s pour cette version de "
+"WooCommerce Wholesale Prices ( %2$s ). SVP mettez à jour maintenant."
+
+#: woocommerce-wholesale-prices.bootstrap.php:141
+msgid "Click here to install from WordPress.org repo &rarr;"
+msgstr "Cliquez ici pour l'installer à partir du dépôt WordPress.org &rarr;"
+
+#: woocommerce-wholesale-prices.bootstrap.php:144
+msgid "Activate this plugin"
+msgstr "Activer cette extension"
+
+#: woocommerce-wholesale-prices.bootstrap.php:144
+msgid "Click here to activate &rarr;"
+msgstr "Cliquez ici pour activer &rarr;"
+
+#: woocommerce-wholesale-prices.bootstrap.php:150
+msgid ""
+"<b>WooCommerce Wholesale Prices</b> plugin missing dependency.<br/><br/"
+">Please ensure you have the <a href=\"http://wordpress.org/plugins/"
+"woocommerce/\" target=\"_blank\">WooCommerce</a> plugin installed and "
+"activated.<br/>"
+msgstr ""
+"Dépendance manquante de l'extension <b>WooCommerce Wholesale Prices</b><br/"
+"><br/>SVP assurez-vous que vous avez installé et activé l'extension <a href="
+"\"http://wordpress.org/plugins/woocommerce/\" target=\"_blank\">WooCommerce</"
+"a>.<br/>"
+
+msgid "WooCommerce Wholesale Prices"
+msgstr "WooCommerce Wholesale Prices"
+
+msgid "WooCommerce Extension to Provide Wholesale Prices Functionality"
+msgstr "Extension WooCommerce fournissant une fonctionnalité de prix de gros"
+
+#~ msgid "Wholesale Leads"
+#~ msgstr "Wholesale Leads"
+
+#~ msgid "WooCommerce Wholesale Prices | Wholesale Roles"
+#~ msgstr "WooCommerce Wholesale Prices | Wholesale Roles"
+
+#~ msgid "Start Setup"
+#~ msgstr "Lancer le paramétrage"
+
+#~ msgid "Quicker ordering for your customers"
+#~ msgstr "Un processus commande plus rapide pour vos clients"
+
+#~ msgid ""
+#~ "Wholesale Order Form gives you a customizable wholesale-specific "
+#~ "registration form,<br />\n"
+#~ "        wholesale user approvals system, email notifications, user "
+#~ "upgrading, and more."
+#~ msgstr ""
+#~ "Wholesale Order Form vous apporte un formulaire d’enregistrement spécial "
+#~ "grossistes personnalisable,<br />\n"
+#~ "\t\tun système d’approbation des clients grossistes, des notificafions "
+#~ "par e-mail, la mise à jour utilisateur, et plus."
+
+#~ msgid "Click to See Wholesale Prices"
+#~ msgstr "Cliquez pour voir les prix de gros"
+
+#~ msgid "Bonus"
+#~ msgstr "Prime"
+
+#~ msgid "Wholesale Prices lite users get"
+#~ msgstr "Prix ​​de gros les utilisateurs Lite obtiennent"
+
+#, php-format
+#~ msgid "50% off regular price"
+#~ msgstr "50% off prix régulier"
+
+#~ msgid "automatically applied at checkout."
+#~ msgstr "appliqué automatiquement à la caisse."
+
+#~ msgid ""
+#~ "Allow Wholesale Suite to track plugin usage? Opt-in let us track usage "
+#~ "data so we know with which WordPress configurations, themes and plugins "
+#~ "we should test with."
+#~ msgstr ""
+#~ "Permettre Wholesale Suite de suivre l’usage de l’extension ? L’autoriser "
+#~ "nous permet de suivre votre usage de l’extension afin de savoir avec "
+#~ "quelles configurations WordPress, themes et extensions nous devrions la "
+#~ "tester."

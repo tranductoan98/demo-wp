@@ -1,0 +1,6 @@
+{
+    "name": "root/kpoint-pro",
+    "require": {
+        "yahnis-elsts/plugin-update-checker": "^4.11"
+    }
+}

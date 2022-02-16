@@ -1,0 +1,72 @@
+.kpoint-panel{
+color: #fff;
+background: #0095eb;
+padding: 10px 10px;
+}
+
+.kpoint-panel .kp-title{
+font-size: 16px;
+color: #fff;
+display: inline;
+margin-right: 10px;
+}
+
+.kpoint-panel .buy-point a{
+    background: #fff;
+    padding: 3px 8px;
+    border-radius: 3px;
+    color: #0095eb;
+    margin-right: 10px;
+    display: inline-block;
+        margin: 3px 3px 0 0;
+}
+
+.kpoint-panel{
+background: #0095eb;
+margin-bottom: 30px;
+}
+
+
+#view_kp_logs{
+display: block;
+margin-bottom: 10px;
+}
+
+.kp-logs td{
+	color: #efefef;
+}
+.kpoint-panel hr{
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.kpoint-panel a{
+color: #fff;
+}
+
+#kp-logs-wrapper .up, #kp-logs-wrapper #kp-logs-inner{
+display: none;
+}
+
+#kp-logs-wrapper.open .up{
+display: inline;
+}
+
+#kp-logs-wrapper.open .down{
+display: none;
+}
+
+#view_kp_logs:hover{
+
+color: #fff;
+}
+
+#kp-logs-wrapper.open #kp-logs-inner{
+display: block;
+}
+
+#kp-logs-inner{
+
+max-height: 200px;
+overflow-y: auto;
+}

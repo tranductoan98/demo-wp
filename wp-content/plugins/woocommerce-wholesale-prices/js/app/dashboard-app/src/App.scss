@@ -1,0 +1,29 @@
+#wholesale-dashboard{
+  padding: 0px 20px;
+  
+  .logo-link{
+    &:focus{
+      box-shadow: none;
+    }
+  }
+
+  .logo{
+    margin: 40px 0px 20px;
+  }
+
+  .wrap{
+    & > h1{
+      font-size: 26px;
+      font-weight: 700;
+      margin-bottom: 30px;
+    }
+  }
+   
+}
+
+#page-loader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}

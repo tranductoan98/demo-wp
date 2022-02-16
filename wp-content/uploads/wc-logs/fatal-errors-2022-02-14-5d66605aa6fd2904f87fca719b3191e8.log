@@ -1,0 +1,20 @@
+2022-02-14T04:27:15+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\demo\wp-content\plugins\wc-product-table-lite\main.php:1974
+Stack trace:
+#0 C:\xampp\htdocs\demo\wp-includes\shortcodes.php(356): wcpt_shortcode_product_table('', '', 'product_table')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\demo\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(produc...', 'do_shortcode_ta...', '\n\n\n[product_tab...')
+#3 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(307): do_shortcode('\n\n\n[product_tab...')
+#4 C:\xampp\htdocs\demo\wp-includes\plugin.php(189): WP_Hook->apply_filters('\n\n\n[product_tab...', Array)
+#5 C:\xampp\htdocs\demo\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(1811): apply_filters('the_content', '<!-- wp:html /-...')
+#6 C:\xampp\htdocs\demo\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php(560): WP_REST_Posts_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#7 C:\xampp\htdocs\demo\wp-includes\rest-api\class-wp-rest-server.php(1141): WP_REST_Posts_Controller->get_item(Object(WP_REST_Request))
+#8 C:\xampp\htdocs\demo\wp-includes\rest-api\class-wp-rest-server.php(988): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/pages/(?...', Array, NULL)
+#9 C:\xampp\htdocs\demo\wp-includes\rest-api.php(511): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 C:\xampp\htdocs\demo\wp-includes\rest-api.php(2860): rest_do_request(Object(WP_REST_Request))
+#11 [internal function]: rest_preload_api_request(Array, '/wp/v2/pages/30...')
+#12 C:\xampp\htdocs\demo\wp-includes\block-editor.php(492): array_reduce(Array, 'rest_preload_ap...', Array)
+#13 C:\xampp\htdocs\demo\wp-admin\edit-form-blocks.php(72): block_editor_rest_api_preload(Array, Object(WP_Block_Editor_Context))
+#14 C:\xampp\htdocs\demo\wp-admin\post.php(187): require('C:\\xampp\\htdocs...')
+#15 {main}
+  thrown in C:\xampp\htdocs\demo\wp-content\plugins\wc-product-table-lite\main.php on line 1974
+

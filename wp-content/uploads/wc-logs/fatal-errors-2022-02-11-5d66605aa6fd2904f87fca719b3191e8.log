@@ -1,0 +1,43 @@
+2022-02-11T06:04:00+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / float in C:\xampp\htdocs\demo\wp-content\plugins\kpoint-pro\includes\kpoint-class.php:75
+Stack trace:
+#0 C:\xampp\htdocs\demo\wp-content\plugins\kpoint-pro\includes\woo-kpoint.php(317): KPoint::cal_price_by_point('')
+#1 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(307): WooKPoint->add_custom_price(Object(WC_Cart))
+#2 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\demo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\demo\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1396): do_action('woocommerce_bef...', Object(WC_Cart))
+#5 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(305): WC_Cart->calculate_totals()
+#6 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\demo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\demo\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1276): do_action('woocommerce_add...', '3e2b7761d3d9f63...', 296, 1, 0, Array, Array)
+#9 C:\xampp\htdocs\demo\wp-content\plugins\woocommerce\includes\class-wc-form-handler.php(824): WC_Cart->add_to_cart(296, 1)
+#10 C:\xampp\htdocs\demo\wp-content\plugins\woocommerce\includes\class-wc-form-handler.php(796): WC_Form_Handler::add_to_cart_handler_simple(296)
+#11 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(307): WC_Form_Handler::add_to_cart_action('')
+#12 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#13 C:\xampp\htdocs\demo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\demo\wp-settings.php(609): do_action('wp_loaded')
+#15 C:\xampp\htdocs\demo\wp-config.php(97): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\demo\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\demo\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#18 C:\xampp\htdocs\demo\index.php(17): require('C:\\xampp\\htdocs...')
+#19 {main}
+  thrown in C:\xampp\htdocs\demo\wp-content\plugins\kpoint-pro\includes\kpoint-class.php on line 75
+
+2022-02-11T06:04:04+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / float in C:\xampp\htdocs\demo\wp-content\plugins\kpoint-pro\includes\kpoint-class.php:75
+Stack trace:
+#0 C:\xampp\htdocs\demo\wp-content\plugins\kpoint-pro\includes\woo-kpoint.php(317): KPoint::cal_price_by_point('')
+#1 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(307): WooKPoint->add_custom_price(Object(WC_Cart))
+#2 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\demo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\demo\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1396): do_action('woocommerce_bef...', Object(WC_Cart))
+#5 C:\xampp\htdocs\demo\wp-content\plugins\woocommerce\includes\class-wc-cart-session.php(177): WC_Cart->calculate_totals()
+#6 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(307): WC_Cart_Session->get_cart_from_session('')
+#7 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp\htdocs\demo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\demo\wp-settings.php(609): do_action('wp_loaded')
+#10 C:\xampp\htdocs\demo\wp-config.php(97): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\demo\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\demo\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\demo\index.php(17): require('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\demo\wp-content\plugins\kpoint-pro\includes\kpoint-class.php on line 75
+

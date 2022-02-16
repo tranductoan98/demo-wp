@@ -1,0 +1,34 @@
+2022-02-09T08:57:52+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in C:\xampp\htdocs\demo\wp-admin\includes\class-bulk-upgrader-skin.php:156
+Stack trace:
+#0 C:\xampp\htdocs\demo\wp-admin\includes\class-bulk-upgrader-skin.php(156): sprintf('%1$s installed ...', 'WordPress Impor...')
+#1 C:\xampp\htdocs\demo\wp-content\themes\kuteshop\framework\classes\class-tgm-plugin-activation.php(3647): Bulk_Upgrader_Skin->after('WordPress Impor...')
+#2 C:\xampp\htdocs\demo\wp-admin\includes\class-wp-upgrader.php(824): TGMPA_Bulk_Installer_Skin->after()
+#3 C:\xampp\htdocs\demo\wp-content\themes\kuteshop\framework\classes\class-tgm-plugin-activation.php(3267): WP_Upgrader->run(Array)
+#4 C:\xampp\htdocs\demo\wp-content\themes\kuteshop\framework\classes\class-tgm-plugin-activation.php(3380): TGMPA_Bulk_Installer->run(Array)
+#5 C:\xampp\htdocs\demo\wp-content\themes\kuteshop\framework\classes\class-tgm-plugin-activation.php(2986): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 C:\xampp\htdocs\demo\wp-content\themes\kuteshop\framework\classes\class-tgm-plugin-activation.php(751): TGMPA_List_Table->process_bulk_actions()
+#7 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(307): TGM_Plugin_Activation->install_plugins_page('')
+#8 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\demo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\demo\wp-admin\admin.php(259): do_action('appearance_page...')
+#11 C:\xampp\htdocs\demo\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\demo\wp-admin\includes\class-bulk-upgrader-skin.php on line 156
+
+2022-02-09T09:48:10+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in C:\xampp\htdocs\demo\wp-admin\includes\class-bulk-upgrader-skin.php:156
+Stack trace:
+#0 C:\xampp\htdocs\demo\wp-admin\includes\class-bulk-upgrader-skin.php(156): sprintf('%1$s installed ...', 'YITH WooCommerc...')
+#1 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\classes\class-tgm-plugin-activation.php(3638): Bulk_Upgrader_Skin->after('YITH WooCommerc...')
+#2 C:\xampp\htdocs\demo\wp-admin\includes\class-wp-upgrader.php(824): TGMPA_Bulk_Installer_Skin->after()
+#3 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\classes\class-tgm-plugin-activation.php(3258): WP_Upgrader->run(Array)
+#4 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\classes\class-tgm-plugin-activation.php(3371): TGMPA_Bulk_Installer->run(Array)
+#5 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\classes\class-tgm-plugin-activation.php(2977): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 C:\xampp\htdocs\demo\wp-content\themes\flatsome\inc\classes\class-tgm-plugin-activation.php(743): TGMPA_List_Table->process_bulk_actions()
+#7 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(307): TGM_Plugin_Activation->install_plugins_page('')
+#8 C:\xampp\htdocs\demo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\demo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\demo\wp-admin\admin.php(259): do_action('appearance_page...')
+#11 C:\xampp\htdocs\demo\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\demo\wp-admin\includes\class-bulk-upgrader-skin.php on line 156
+
